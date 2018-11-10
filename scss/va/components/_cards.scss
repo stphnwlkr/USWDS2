@@ -1,0 +1,366 @@
+/* Cards */
+
+.usa-card {
+	margin-bottom: spacing-multiple(2);
+	overflow: hidden;
+	border: none;
+	background: color('white');
+	color: color('ink');
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.usa-card> :last-child {
+	margin-bottom: 0;
+}
+
+.usa-card__title__lg {
+	font-weight: 700;
+	font-size: $theme-h2-font-size;
+	a {
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+}
+
+.usa-card__title {
+	font-weight: 700;
+	font-size: $theme-h3-font-size;
+	a {
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+}
+
+.usa-card__title__sm {
+	font-weight: 700;
+	font-size: $theme-h4-font-size;
+	a {
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+}
+
+.usa-card__divider {
+	padding: spacing-multiple(2);
+	background: color('white');
+}
+
+.usa-card__divider> :last-child {
+	margin-bottom: 0;
+}
+
+.usa-card__section {
+	padding: spacing-multiple(2);
+}
+
+.usa-card__section> :last-child {
+	margin-bottom: 0;
+}
+
+/* Card Bodies */
+
+.usa-card__blue {
+	@extend.usa-card;
+	background: color('primary');
+	color: color('white');
+	a {
+		color: color('white');
+	}
+}
+
+.usa-card__blue-darker {
+	@extend.usa-card;
+	background: color('primary-darker');
+	color: color('white');
+	a {
+		color: color('white');
+	}
+}
+
+.usa-card__blue-darkest {
+	@extend.usa-card;
+	background: color('primary-darkest');
+	color: color('white');
+	a {
+		color: color('white');
+	}
+}
+
+.usa-card__aqua-dark {
+	@extend.usa-card;
+	background: color('accent-cool-darker');
+	color: color('black');
+	a {
+		color: color('white');
+	}
+}
+
+.usa-card__aqua-darkest {
+	@extend.usa-card;
+	background: color('accent-cool-darker')est;
+	color: color('white');
+	a {
+		color: color('white');
+	}
+}
+
+.usa-card__gray-dark {
+	@extend.usa-card;
+	background: color('base-darker');
+	color: color('white');
+	a {
+		color: color('white');
+	}
+}
+
+.usa-card__red-darkest {
+	@extend.usa-card;
+	background: color('secondary-darker');
+	color: color('white');
+	a {
+		color: color('white');
+	}
+}
+
+/* Dividers */
+
+.usa-card__divider__lighter {
+	padding: spacing-multiple(2);
+	background: rgba(color('base-lightest'), .5);
+}
+
+.usa-card__divider__blue {
+	background: color('primary');
+	color: color('white');
+	border: 1px solid color('primary');
+	a {
+		color: color('white');
+	}
+}
+
+.usa-card__divider__blue-darker {
+	background: color('primary-darker');
+	color: color('white');
+	a {
+		color: color('white');
+	}
+}
+
+.usa-card__divider__blue-darkest {
+	background: color('primary-darkest');
+	color: color('white');
+	a {
+		color: color('white');
+	}
+}
+
+.usa-card__divider__gray-dark {
+	background: color('base-darker');
+	color: color('white');
+	a {
+		color: color('white');
+	}
+}
+
+.usa-card__divider__red-darkest {
+	background: color('secondary-darker');
+	color: color('white');
+	a {
+		color: color('white');
+	}
+}
+
+.usa-card__divider__aqua-darkest {
+	background: color('accent-cool-darker')est;
+	color: color('white');
+	a {
+		color: color('white');
+	}
+}
+
+.usa-card__rounded {
+	border-radius: units($theme-border-radius-lg);
+}
+
+.usa-card__hover {
+	transition: all 0.2s ease-in-out;
+	border: none;
+}
+
+.usa-card__hover:hover {
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.12);
+	transform: scale(1.05);
+}
+
+.box-shadow__low {
+	box-shadow: $box-shadow-low;
+}
+
+.navigation__major .cards__2across {
+	display: block
+}
+
+dl {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	margin-top: 1em;
+	margin-bottom: 1em
+}
+
+.cards,
+dl {
+	display: block
+}
+
+.cards {
+	margin: 0 !important;
+	padding: 0
+}
+
+@media screen and (min-width:600px) {
+	.cards__2across:after,
+	.cards__2across:before,
+	.cards__3across:after,
+	.cards__3across:before {
+		content: " ";
+		display: table
+	}
+	.cards__2across:after,
+	.cards__3across:after {
+		clear: both
+	}
+	.cards__3across >.card {
+		width: 33%
+	}
+	.cards__2across >.card {
+		width: 50%
+	}
+}
+
+.card,
+.oit-card {
+	border-color: transparent;
+	border-style: solid;
+	border-width: 0 .625rem 1.25rem .67rem;
+	list-style: none !important;
+	position: relative;
+	padding: 0
+}
+
+@media screen and (min-width:600px) {
+	.card,
+	.oit-card {
+		float: left
+	}
+}
+
+.edit-checkbox .card label,
+.card .edit-checkbox label,
+.card a {
+	color: inherit
+}
+
+.edit-checkbox .card label,
+.card__body,
+.card .edit-checkbox label,
+.card a {
+	transition: all .3s ease-in-out;
+	background: color('primary-darker');
+	border-radius: units($theme-border-radius-sm);
+	color: color('white') !important;
+	display: block;
+	font-weight: 500;
+	height: 11em;
+	padding: .45em .75em;
+	text-align: left;
+	text-decoration: none;
+}
+
+.edit-checkbox .card label:active,
+.edit-checkbox .card label:focus,
+.edit-checkbox .card label:hover,
+.card__body:active,
+.card__body:focus,
+.card__body:hover,
+.card .edit-checkbox label:active,
+.card .edit-checkbox label:focus,
+.card .edit-checkbox label:hover,
+.card a:active,
+.card a:focus,
+.card a:hover {
+	background: color('primary');
+	color: inherit;
+	cursor: pointer;
+	text-decoration: inherit;
+}
+
+.edit-checkbox .card label+ol,
+.edit-checkbox .card label+ul,
+.card__body+ol,
+.card__body+ul,
+.card .edit-checkbox label+ol,
+.card .edit-checkbox label+ul,
+.card a+ol,
+.card a+ul {
+	margin: 1em 1.2em 0 2em !important
+}
+
+.ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+@media screen and (min-width:600px) {
+	.edit-checkbox .card label,
+	.card__body,
+	.card .edit-checkbox label,
+	.card a {
+		padding: spacing-multiple(1)
+	}
+}
+
+@media screen and (min-width:300px) {
+	.card__title {
+		color: color('white') !important;
+		font: 700 1.35em/1.3em $theme-font-sans;
+		margin: 0 !important;
+		padding: 0 0 .25em !important
+	}
+}
+
+@media screen and (min-width:480px) {
+	.card__title {
+		color: color('white') !important;
+		font: 700 1.1em/1.3em $theme-font-sans;
+		margin: 0 !important;
+		padding: 0 0 .25em !important
+	}
+}
+
+@media screen and (min-width:951px) {
+	.card__title {
+		color: color('white') !important;
+		font: 700 1.35em/1.3em $theme-font-sans;
+		margin: 0 !important;
+		padding: 0 0 .25em !important;
+	}
+}
+
+.edit-checkbox .card__title label,
+.card__title .edit-checkbox label,
+.card__title a {
+	text-decoration: none;
+	background-color: transparent
+}
+
+
+   

@@ -1,0 +1,81 @@
+
+
+
+
+
+ a.back-to-top .show {
+     border-bottom: 1px solid #f9f9f9;
+     margin-bottom: 5px;
+     display: block;
+ }
+
+
+a.back-to-top {
+    z-index: 8990;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: color('primary');
+    width: 50px;
+    color: color('white');
+    display: block;
+    border: none;
+    text-decoration: none;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+a.back-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+a.back-to-top:hover {
+    background: color('secondary-darker');
+}
+
+a.back-to-top:hover i {
+    color: color('white');
+}
+
+a.back-to-top:focus {
+    outline: none !important;
+}
+
+footer.usa-section a {
+    text-decoration: none;
+}
+
+footer a,
+.copyright a {
+    text-decoration: none;
+}
+
+.copyright span {
+    padding: .5rem;
+}
+
+footer a:hover,
+.copyright a:hover {
+    text-decoration: underline;
+}
+
+.copyright a:visited {
+    text-decoration: none;
+    color: color('white');
+}
+footer nav a:visited{
+    color: color('primary-darker');
+    text-decoration: none;
+}

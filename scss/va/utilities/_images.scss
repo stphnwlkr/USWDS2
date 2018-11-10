@@ -1,0 +1,113 @@
+	.img__left,
+	.img__right,
+	.img__left-mb-md,
+	.img__right-mb-md,
+	.img__left-mb-lg,
+	.img__right-mb-lg,
+	.img__left-mb-xl,
+	.img__right-mb-xl {
+		float: none;
+		clear: both;
+		text-align: center;
+		margin: spacing-multiple(2) auto;
+		max-width: 100%;
+	}
+	 .img__circle {
+	  	border-radius: 50%;
+	  	max-width: 200px;
+	  	max-height: 200px;
+	  }
+	  .image__circle__outside-left {
+	  	float: left;
+	  	shape-outside: circle();
+	  	margin: spacing-multiple(2);
+	  
+	  }
+
+	  .image__circle__outside-right {
+	  	float: right;
+	  	shape-outside: circle();
+	  	margin: spacing-multiple(2);
+	  	
+	  }
+	  .image__ellipse__outside-left {
+	  	float: left;
+	  	shape-outside: ellipse();
+	  	margin: spacing-multiple(2);
+
+	  }
+
+	  .image__ellipse__outside-right {
+	  	float: right;
+	  	shape-outside: ellipse();
+	  	margin: spacing-multiple(2);
+
+	  }
+
+@media screen and (min-width: 600px) {
+	.img__center {
+	display: block;
+	clear: both;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: spacing-multiple(2) !important;
+}
+
+.img__left {
+	float: left;
+	margin-left: 0;
+	margin-bottom: spacing-multiple(2);
+	margin-right: spacing-multiple(2);
+	max-width: 70%;
+}
+
+.img__right {
+	float: right;
+	margin-bottom: spacing-multiple(2);
+	margin-left: spacing-multiple(2);
+	max-width: 70%;
+}
+
+.img__left-mb-md {
+	float: left;
+	margin-bottom: 5rem;
+	margin-right: spacing-multiple(3);
+	max-width: 70%;
+}
+
+.img__right-mb-md {
+	float: right;
+	margin-bottom: 5rem;
+	margin-left: spacing-multiple(3);
+	max-width: 70%;
+}
+
+.img__left-mb-lg {
+	float: left;
+	margin-bottom: spacing-multiple(4);
+	margin-right: spacing-multiple(4);
+}
+
+.img__right-mb-lg {
+	float: right;
+	margin-bottom: spacing-multiple(4);
+	margin-left: spacing-multiple(4);
+	max-width: 70%;
+}
+
+.img__left-mb-xl {
+	float: left;
+	margin-bottom: spacing-multiple(6);
+	margin-right: spacing-multiple(6);
+	max-width: 70%;
+}
+
+.img__right-mb-xl {
+	float: right;
+	margin-bottom: spacing-multiple(6);
+	margin-left: spacing-multiple(6);
+	max-width: 70%;
+}
+
+
+}

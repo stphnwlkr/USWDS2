@@ -1,0 +1,30 @@
+.sharing-box {
+	display: table;
+	margin-top: spacing-multiple(.5);
+	margin-bottom: spacing-multiple(.5);
+	padding: spacing-multiple(1);
+	height: spacing-multiple(4);
+	width: 100%;
+	background-color: color('base-lightest');
+}
+
+.sharing-box .share-networks {
+	text-align: right;
+}
+
+.sharing-box .share-networks,
+.sharing-box h4 {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.sharing-box a {
+	display: inline-block;
+	margin: 4px;
+	color: color('base-dark');
+	font-size: 1.2rem;
+}
+
+.sharing-box a:hover {
+	color: color('ink');
+}

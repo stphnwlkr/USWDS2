@@ -1,0 +1,22 @@
+$body-background-color:#f9f9f9;
+$color-blue-midnight: color('primary-darkest') !default;
+$color-modal-bg : rgba(advanced-color('gray-cool',60), .8);
+$color-modal-close : rgba(color('ink'), .8);
+$header-background-color: advanced-color('gray-cool',80);
+$header-text-color: color('white');
+$primary-navigation-background-color: $header-background-color;
+$primary-navigation-text-color:$header-text-color;
+$primary-navigation-dropdown-background-color: color('primary-darkest');
+$primary-navigation-dropdown-text-color:$header-text-color;
+$mobile-nav-background-color: color('white');
+$mobile-nav-text-color: color('ink');
+$footer-background-color: advanced-color('gray-cool',80);
+$footer-text-color: color('white');
+$box-shadow: 0 3px 6px rgba(color('ink'), 0.16),
+0 3px 6px rgba(color('ink'), 0.23);
+$box-shadow-low: 0 1px 3px rgba(color('ink'), 0.12),
+0 1px 2px rgba(color('ink'), 0.24);
+$box-shadow-medium: 0 10px 20px rgba(color('ink'), 0.19),
+0 6px 6px rgba(color('ink'), 0.23);
+$box-shadow-high: 0 14px 28px rgba(color('ink'), 0.25),
+0 10px 10px rgba(color('ink'), 0.22);

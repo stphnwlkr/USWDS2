@@ -1,0 +1,223 @@
+.usa-accordion-content {
+	background-color: #f9f9f9;
+}
+.usa-accordion-heading{
+	line-height: 1.5;
+}
+/* primary  */
+
+.usa-accordion-button__primary {
+	background-image: url("../img/uswds/minus-white.png");
+	background-color: color('primary');
+	color: color('white');
+
+	&:hover {
+		background-color: color('primary-darker');
+		color: color('white');
+	}
+}
+
+.usa-accordion-button__primary[aria-expanded=false] {
+	background-image: url("../img/uswds/plus-white.png");
+}
+
+/* primary darkest */
+
+.usa-accordion-button__primary-darkest {
+	background-image: url("../img/uswds/minus-white.png");
+	background-color: $color-blue-midnight;
+	color: color('white');
+
+	&:hover {
+		background-color: color('primary');
+		color: color('white');
+	}
+}
+
+.usa-accordion-button__primary-darkest[aria-expanded=false] {
+	background-image: url("../img/uswds/plus-white.png");
+}
+
+/* base-darker */
+
+.usa-accordion-button__base-darker {
+	background-image: url("../img/uswds/minus-white.png");
+	background-color: color('base-darker');
+	color: color('white');
+
+	&:hover {
+		background-color: color('base-dark');
+		color: color('white');
+	}
+}
+
+.usa-accordion-button__base-darker[aria-expanded=false] {
+	background-image: url("../img/uswds/plus-white.png");
+}
+
+/* secondary darkest */ 
+
+.usa-accordion-button__secondary-darkest {
+	background-image: url("../img/uswds/minus-white.png");
+	background-color: color('secondary-darkest');
+	color: color('white');
+
+	&:hover {
+		background-color: color('secondary-darker');
+		color: color('white');
+	}
+}
+
+.usa-accordion-button__secondary-darkest[aria-expanded=false] {
+	background-image: url("../img/uswds/plus-white.png");
+}
+
+/* green */
+
+.usa-accordion-button__green {
+	background-image: url("../img/uswds/minus-white.png");
+	background-color: color('success-dark');
+	color: color('white');
+
+	&:hover {
+		background-color: color('success');
+		color: color('ink');
+		background-image: url("../img/uswds/minus.png");
+	}
+}
+
+.usa-accordion-button__green[aria-expanded=false] {
+	background-image: url("../img/uswds/plus-white.png");
+
+	&:hover {
+		background-image: url("../img/uswds/plus.png");
+	}
+}
+
+/* warm dark */
+
+.usa-accordion-button__accent-warm-dark {
+	background-image: url("../img/uswds/minus-white.png");
+	background-color: color('accent-warm-dark');
+	color: color('white');
+
+	&:hover {
+		background-color: color('accent-warm-darker');
+		color: color('white');
+	}
+}
+
+.usa-accordion-button__accent-warm-dark[aria-expanded=false] {
+	background-image: url("../img/uswds/plus-white.png");
+}
+
+/* warm darker */
+
+.usa-accordion-button__accent-warm-darker {
+	background-image: url("../img/uswds/minus-white.png");
+	background-color: color('accent-warm-darker');
+	color: color('white');
+
+	&:hover {
+		background-color: color('accent-warm-dark');
+		color: color('white');
+	}
+}
+
+.usa-accordion-button__accent-warm-darker[aria-expanded=false] {
+	background-image: url("../img/uswds/plus-white.png");
+}
+
+/* cool darker */
+
+.usa-accordion-button__accent-cool-darker {
+	background-color: color('accent-cool-darker');
+	background-image: url("../img/uswds/minus-white.png");
+	color: color('white');
+
+	&:hover {
+		background-color: color('accent-cool-dark');
+		background-image: url("../img/uswds/minus.png");
+		color: color('ink');
+	}
+}
+
+.usa-accordion-button__accent-cool-darker[aria-expanded=false] {
+	background-image: url("../img/uswds/plus-white.png");
+
+	&:hover {
+		background-image: url("../img/uswds/plus.png");
+	}
+}
+
+/* Light Colors */
+
+/* primary lighter */
+
+.usa-accordion-button__primary-lighter {
+	background-color: color('primary-lighter');
+
+	&:hover {
+		background-color: color('primary-light');
+	}
+}
+
+.usa-accordion-button__primary-lighter[aria-expanded=false] {
+	background-color: color('primary-lighter');
+		&:hover {
+			background-color: color('primary-light');
+		}
+}
+
+/* cool lighter */
+
+.usa-accordion-button__accent-cool-lighter {
+	background-color: color('accent-cool-lighter');
+
+	&:hover {
+		background-color: color('accent-cool-light');
+	}
+}
+
+.usa-accordion-button__accent-cool-lighter[aria-expanded=false] {
+	background-color: color('accent-cool-lighter');
+	&:hover {
+		background-color: color('accent-cool-light');
+	}
+}
+
+/* primary lighter */
+
+.usa-accordion-button__secondary-lighter {
+	background-color: color('secondary-lighter');
+
+	&:hover {
+		background-color: color('secondary-light');
+	}
+}
+
+.usa-accordion-button__secondary-lighter[aria-expanded=false] {
+	background-color: color('secondary-lighter');
+
+	&:hover {
+		background-color: color('secondary-light');
+	}
+}
+
+/* cool lighter */
+
+.usa-accordion-button__accent-warm-lighter {
+	background-color: color('accent-warm-lighter');
+
+	&:hover {
+		background-color: color('accent-warm-light');
+	}
+}
+
+.usa-accordion-button__accent-warm-lighter[aria-expanded=false] {
+	background-color: color('accent-warm-lighter');
+
+	&:hover {
+		background-color: color('accent-warm-light');
+	}
+}

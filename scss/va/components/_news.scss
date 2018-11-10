@@ -1,0 +1,44 @@
+/* CSS Document */
+
+/*News */
+
+.news-title {
+	margin-top: 4px;
+	padding: .2em;
+	text-transform: capitalize;
+}
+
+.news-meta {
+	margin-top: 4px;
+	width: 100%;
+	clear: both;
+	font-size: 1.4rem !important;
+	color: $color-gray;
+	padding: 6px;
+	font-weight: $font-normal;
+	line-height: 2rem;
+}
+
+.news-list {
+   display: flex;
+   align-items: flex-start;
+   align-content: flex-start;
+   margin: 1em;
+ }
+
+ .news-item {
+   display: flex;
+   flex: 1 1 auto;
+ }
+
+ .flex-column {
+   flex-direction: column
+ }
+
+ .news-title {
+   max-width: 70ch;
+ }
+
+ .news-item p {
+   max-width: 78ch;
+ }

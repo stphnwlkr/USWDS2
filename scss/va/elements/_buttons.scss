@@ -1,0 +1,11 @@
+.usa-button-outline {
+  background-color: transparent !important;
+	color: $color-blue-midnight;
+	-webkit-box-shadow: inset 0 0 0 2px $color-blue-midnight;
+	box-shadow: inset 0 0 0 2px $color-blue-midnight;
+	& :hover{
+		color: color('primary');
+	-webkit-box-shadow: inset 0 0 0 2px color('primary');
+	box-shadow: inset 0 0 0 2px color('primary')t;
+	}
+}

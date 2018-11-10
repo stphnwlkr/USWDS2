@@ -1,0 +1,109 @@
+/*! uswds @version */
+
+/*
+========================================
+uswds.scss
+----------------------------------------
+Output all USWDS
+- fonts
+- components
+- utilities
+- layout grid
+----------------------------------------
+*/
+
+// Settings
+// -------------------------------------
+@import 'settings/settings-general';
+@import 'settings/settings-typography';
+@import 'settings/settings-color';
+@import 'settings/settings-spacing';
+@import 'settings/settings-utilities';
+@import 'settings/settings-components';
+
+// Tools
+// -------------------------------------
+@import 'core/font-definitions';
+@import 'core/functions';
+@import 'core/system-tokens';
+@import 'core/variables';
+@import 'core/properties';
+@import 'core/mixins/all';
+
+// Generic
+// -------------------------------------
+@import 'core/font-face';
+@import 'lib/normalize';
+@import 'core/base';
+
+// Elements
+// -------------------------------------
+@import 'elements/buttons';
+@import 'elements/embed';
+@import 'elements/figure';
+@import 'elements/inputs';
+@import 'elements/list';
+@import 'elements/table';
+@import 'elements/tags';
+@import 'elements/typography';
+
+// Components
+// -------------------------------------
+@import 'components/accordions';
+@import 'components/alerts';
+@import 'components/banner';
+@import 'components/checklist';
+@import 'components/footer';
+@import 'components/forms';
+@import 'components/graphic-list';
+@import 'components/header';
+@import 'components/hero';
+@import 'components/layout';
+@import 'components/media-block';
+@import 'components/navigation';
+@import 'components/search';
+@import 'components/section';
+@import 'components/sidenav';
+@import 'components/skipnav';
+
+// Layout grid
+// -------------------------------------
+@import 'core/layout-grid';
+
+// Utilities
+// -------------------------------------
+@import 'utilities/palettes/all';
+@import 'utilities/rules/all';
+@import 'utilities/rules/package';
+@include render-utilities-in($utilities-package);
+
+//VA
+@import '../va/core/mixins';
+@import '../va/core/variables';
+
+@import '../va/utilities/helpers';
+@import '../va/utilities/images';
+@import '../va/utilities/breadcrumbs';
+@import '../va/utilities/columns';
+@import '../va/utilities/socialmedia';
+@import '../va/utilities/transitions';
+
+@import '../va/elements/typography';
+@import '../va/elements/tables';
+@import '../va/elements/buttons';
+
+@import '../va/components/accordion';
+@import '../va/components/header';
+@import '../va/components/footer';
+@import '../va/components/nav';
+@import '../va/components/sections';
+@import '../va/components/tabs';
+@import '../va/components/cards';
+@import '../va/components/content-sidebar';
+@import '../va/components/button-cards';
+@import '../va/components/flex-cards';
+@import '../va/components/crisis-line-button';
+@import '../va/components/crisis-line';
+@import '../va/components/hero-callout';
+@import '../va/components/sharing';
+@import '../va/components/progress';

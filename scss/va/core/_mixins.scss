@@ -1,0 +1,102 @@
+@function rem($size) {
+	$remSize: $size / $em-base;
+	@return #{$remSize}rem;
+}
+
+//---------- @mixins ----------//
+@mixin button-unstyled {
+	background-color: transparent;
+	border: 0;
+	border-radius: 0;
+	font-weight: $font-normal;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	text-align: left;
+	-webkit-font-smoothing: auto;
+	&:hover {
+		background-color: transparent;
+	}
+}
+
+@mixin box-shadow($val...) {
+	-moz-box-shadow: ($val);
+	-webkit-box-shadow: ($val);
+	box-shadow: ($val);
+}
+
+@mixin border-radius($val) {
+	border-radius: ($val);
+}
+
+@mixin transition($val...) {
+	-webkit-transition: ($val);
+	-o-transition: ($val);
+	transition: ($val);
+}
+
+@mixin translateX($val...) {
+	-webkit-transform: translateX($val);
+	-ms-transform: translateX($val);
+	-o-transform: translateX($val);
+	transform: translateX($val);
+}
+
+@mixin translateY($val...) {
+	-webkit-transform: translateY($val);
+	-ms-transform: translateY($val);
+	-o-transform: translateY($val);
+	transform: translateY($val);
+}
+
+@mixin translate3d($val, $val, $val) {
+	-webkit-transform: translate3d($val, $val, $val);
+	-ms-transform: translate3d($val, $val, $val);
+	-o-transform: translate3d($val, $val, $val);
+	transform: translate3d($val, $val, $val);
+}
+
+@mixin rotate($val) {
+	-webkit-transform: rotate($val);
+	-moz-transform: rotate($val);
+	-ms-transform: rotate($val);
+	-o-transform: rotate($val);
+	transform: rotate($val);
+}
+
+@mixin scale($val) {
+	-webkit-transform: scale($val);
+	-moz-transform: scale($val);
+	-ms-transform: scale($val);
+	transform: scale($val);
+}
+
+@mixin clearfix {
+	&::after {
+		clear: both;
+		content: "";
+		display: block;
+	}
+}
+
+@mixin grid-media($grid) {
+	$_media: _retrieve-neat-setting($grid, media);
+	$_query: _neat-parse-media($_media);
+}
+
+@mixin no-sr-content {
+	&:after {
+		content: none;
+	}
+}
+
+@mixin media-maxwidth($large) {
+	@media screen and (max-width: #{$large}) {
+		@content;
+	}
+}
+@mixin opacity($opacity) {
+	opacity: $opacity;
+	$opacity-ie: $opacity * 100;
+	filter: alpha(opacity=$opacity-ie); //IE8
+}

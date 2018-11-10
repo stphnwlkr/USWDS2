@@ -1,0 +1,98 @@
+.breadcrumbs {
+    background:transparent;
+    color: color('primary');
+    font-size: inherit;
+    padding: .3em 0
+}
+
+
+.breadcrumbs li {
+    display: inline-block;
+    margin: .25em 0;
+    padding: .25em 0;
+    vertical-align: middle
+}
+
+.breadcrumbs li:after {
+    content: " \203A   ";
+    display: inline-block;
+    padding: 0 .35em
+}
+
+.breadcrumbs li:last-child:after {
+    content: ""
+}
+
+.breadcrumbs li.active {
+    font-weight: 700;
+    padding: .3em 0
+}
+
+.breadcrumbs li.active:after {
+    content: ""
+}
+
+.breadcrumbs a {
+    color: color('primary');
+    display: inline-block;
+    padding: 2px
+}
+
+.breadcrumbs a:hover {
+    background: rgba(0, 0, 0, .05)
+}
+
+.breadcrumbs a[aria-current=page] {
+    color: $color-blue-midnight !important;
+    cursor: default;
+    font-weight: 700;
+    pointer-events: none;
+    text-decoration: none
+}
+
+.breadcrumbs-list {
+    float: none !important;
+    position: relative
+}
+
+.breadcrumbs--mobile li {
+    display: none
+}
+
+.breadcrumbs--mobile li:nth-last-child(2) {
+    display: inline-block
+}
+
+.breadcrumbs--mobile li:nth-last-child(2):before {
+    content: " \2039   ";
+    display: inline-block;
+    padding: 0 .15em
+}
+
+.breadcrumbs--mobile li:nth-last-child(2):after {
+    content: "";
+    display: none;
+    padding: 0
+}
+
+@media screen and (max-width:481px) {
+    .breadcrumbs li {
+        display: none
+    }
+
+    .breadcrumbs li:nth-last-child(2) {
+        display: inline-block
+    }
+
+    .breadcrumbs li:nth-last-child(2):before {
+        content: " \2039   ";
+        display: inline-block;
+        padding: 0 .15em
+    }
+
+    .breadcrumbs li:nth-last-child(2):after {
+        content: "";
+        display: none;
+        padding: 0
+    }
+}

@@ -1,0 +1,18 @@
+.usa-sidenav-item a.usa-current {
+        background-color: advanced-color('gray-warm', 10);
+    }
+    .usa-sidenav .usa-current::after {
+         margin-left: 4px;
+    }
+
+   .usa-sidenav-item a.usa-current::after {
+        background-color: #005ea2;
+        border-radius: 99rem;
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: .25rem;
+        top: .25rem;
+        width: .25rem;
+        left: 0;
+    }

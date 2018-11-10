@@ -1,0 +1,117 @@
+/* CSS Document */
+
+.usa-table__border__light {
+  th,
+  td {
+    border: 1px solid color('base-lighter') !important;
+  }
+}
+.usa-table__striped>tbody>tr:nth-child(odd)>td,
+.usa-table__striped>tbody>tr:nth-child(odd)>th {
+  background-color: transparent;
+}
+.usa-table__striped>tbody>tr:nth-child(even)>td,
+.usa-table__striped>tbody>tr:nth-child(even)>th {
+  background-color: color('base-lightest');
+}
+
+.usa-table__compressed {
+  thead>tr>th {
+    padding:  spacing-multiple(0.5);
+  }
+  tbody>tr>td {
+    padding:  spacing-multiple(0.5);
+  }
+  tbody>tr>th {
+    padding:  spacing-multiple(0.5);
+  }
+  .usa-button {
+    margin-top:  spacing-multiple(0.5);
+    margin-right:  spacing-multiple(0.5);
+    margin-bottom:  spacing-multiple(0.5);
+  }
+}
+
+table caption {
+  margin: 0;
+  padding-top:  spacing-multiple(0.5);
+  padding-bottom:  spacing-multiple(0.5);
+  color: color('base-darker');
+  text-align: center;
+  caption-side: top;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.usa-table__primary thead {
+  th,
+  td {
+    background-color: color('primary');
+    color: color('white');
+  }
+}
+
+.usa-table__primary-darker thead {
+  th,
+  td {
+    background-color: color('primary-darker');
+    color: color('white');
+  }
+}
+
+
+.usa-table__primary-midnight thead {
+  th,
+  td {
+    background-color: $color-blue-midnight;
+    color: color('white');
+  }
+}
+
+.usa-table__accent-cool thead {
+  th,
+  td {
+    background-color: color('accent-cool');
+    color: color('ink');
+  }
+}
+
+.usa-table__accent-cool-darker thead {
+  th,
+  td {
+    background-color: color('accent-cool-darker');
+    color: color('white');
+  }
+}
+
+.usa-table__secondary-darker thead {
+  th,
+  td {
+    background-color: color('secondary-darker');
+    color: color('white');
+  }
+}
+
+.usa-table__green thead {
+  th,
+  td {
+    background-color: color('success-darker');
+    color: color('white');
+  }
+}
+
+.usa-table__base-darker thead {
+  th,
+  td {
+    background-color: color('base-darker');
+    color: color('white');
+  }
+}
+.usa-table__accent-warm-dark thead {
+  th,
+  td {
+    background-color: color('accent-warm-dark');
+    color: color('white');
+  }
+}
+

@@ -1,0 +1,62 @@
+/* Flex Cards */
+
+.card {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding: spacing-multiple(2);
+	margin: spacing-multiple(2);
+	width: 100%;
+}
+
+
+.card-content {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex: auto;
+	flex-direction: column;
+}
+
+.card-body {
+	flex: auto;
+}
+
+.card-title {
+	display: block;
+}
+
+.card-action {
+	display: block;
+	width: 100%;
+}
+
+.cards,
+.cards__wide {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap
+}
+
+@include at-media(spacing-multiple(80)) {
+	.cards>*,
+	.cards__wide>* {
+		width: calc(50% - 2rem);
+		margin-right: spacing-multiple(2);
+	}
+}
+
+@include at-media(spacing-multiple(128)) {
+	.cards__wide>* {
+		width: calc(33% - 2rem);
+	}
+}

@@ -1,0 +1,108 @@
+/*VA Typography settings*/
+
+.blockquote__normal::before {
+    border-left: 5px #5d5d52 solid;
+    margin-right: 10px;
+}
+
+.blockquote__normal {
+    font-family: 'Public Sans Web',Arial,Helvetica,sans-serif;
+    color: color('base-dark');
+}
+
+.blockquote__normal cite::before {
+    margin-top:20px;
+    clear: both;
+    content: '\2014';
+    margin-right: 10px;
+}
+
+.blockquote__normal cite {
+    font-family: 'Public Sans Web',Arial,Helvetica,sans-serif;
+    text-align: right;
+    display: block;
+    margin-right: 10px;
+}
+
+.blockquote__fancy::before {
+    border-left: 5px color('base') solid;
+    margin-right: 10px;
+}
+
+.blockquote__fancy {
+    font-family: 'Merriweather Web', 'Times New Roman', serif;
+    color: color('base-dark');
+    font-style: italic;
+}
+
+.blockquote__fancy cite::before {
+    clear: both;
+    content: '\2014';
+    margin-right: 10px;
+}
+
+.blockquote__fancy cite {
+    font-family: Merriweather Web;
+    text-align: right;
+    display: block;
+    margin-right: 10px;
+}
+
+
+.blockquote__boxed {
+    font-family: 'Public Sans Web',Arial,Helvetica,sans-serif;
+    font-style: italic;
+    padding:spacing-multiple(5);
+}
+
+.blockquote__boxed cite::before {
+       margin-top:40px;
+    clear: both;
+    content: '\2014';
+    margin-right: spacing-multiple(2)
+}
+
+.blockquote__boxed cite {
+    margin-top:40px;
+    font-family: 'Merriweather Web', 'Times New Roman', serif;
+    text-align: right;
+    display: block;
+    margin-right: spacing-multiple(2)
+}
+
+.text-white {
+
+ a{
+    color: color('white');
+}
+a:hover{
+color: color('primary-lighter');
+}
+}
+
+.title-bar, .title-bar {
+    margin-top: 0;
+    margin-bottom: spacing-multiple(3);
+    border-bottom: 3px solid $color-blue-midnight;
+    padding-bottom: spacing-multiple(1);
+}
+
+.title-bar__white,
+.title-bar__white {
+    border-bottom: 3px solid color('white');
+}
+
+.title-bar__base-lighter,
+.title-bar__base-lighter {
+    border-bottom: 3px solid color('base-lighter');
+}
+
+.site-subheading {
+    clear: both;
+     font-size: .8125rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: .5rem;
+    margin-top: 0;
+}

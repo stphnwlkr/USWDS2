@@ -1,0 +1,17 @@
+/*Content sidebar*/
+.content__sidebar {
+    border-left: 5px solid color('primary');
+
+ p {
+    margin-left: spacing-multiple(4);
+ }
+}
+
+.content__sidebar__white {
+    border-left: 5px solid color('white');
+}
+
+.content__sidebar__base-lighter {
+    border-left: 5px solid color('base-lighter');
+
+}

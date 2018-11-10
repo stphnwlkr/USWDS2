@@ -1,0 +1,246 @@
+.div_empty {
+    display: block;
+    position: relative;
+}
+
+.noabsolute {
+    position: relative;
+}
+
+.noshadow {
+    @include box-shadow(none)
+}
+
+.divcenter {
+    position: relative;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.nothidden {
+    display: block;
+}
+
+.inline-block {
+    float: none;
+    display: inline-block;
+}
+
+@media screen and (min-width: 951px) {
+
+    /*Sticky*/
+    .sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+
+    .sticky:before,
+    .sticky:after {
+        content: '';
+        display: table;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .mobile-hide {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .mobile-hide {
+        display: none;
+    }
+}
+
+.icon-title{
+    float:left;
+    margin-bottom:2rem;
+    margin-right:.5rem;
+    clear: both;
+    padding-top:6px;
+}
+
+a .icon-left {
+    text-decoration: none;
+    margin-right: .5em;
+}
+
+a .icon-right {
+    text-decoration: none;
+    margin-left: .5em;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+abbr {
+    border-bottom: 0 !important;
+    text-decoration: none;
+    font-weight: inherit;
+    font-style: inherit;
+    color: inherit;
+    cursor: pointer
+}
+
+
+
+.usa-media__block-img-top {
+    float: none;
+    margin-bottom: 1rem;
+}
+
+.tag,
+.tag-big {
+    background-color: color('primary-darker');
+    border-radius: units($theme-border-radius-md);
+    color: color('white');
+    font-size: 1.4rem;
+    margin-right: .5rem;
+    padding: .3rem .8rem;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: .5rem;
+}
+
+.tag a,
+.tag-big a {
+    color: color('white') !important;
+    text-decoration: none;
+}
+
+.tag a:hover,
+.tag a:hover {
+    color: color("warning-lighter") !important;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 481px) {
+    .usa-media_block-img {
+        float: none;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div[class*="grid-offset-"] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 951px) {
+    .multi-column>p:first-child {
+        margin-top: 0;
+    }
+
+    .multi-column.three-columns {
+        columns: 3 auto;
+    }
+
+    .multi-column.two-columns {
+        columns: 2 auto;
+    }
+}
+
+.h-rule {
+    border-bottom: 3px solid #1b2a3e;
+    padding-bottom: 0.25em;
+    font-weight: 700;
+}
+
+.h-rule__a {
+    color: #1b2a3e;
+    padding-bottom: 0.5em;
+    border-bottom: #1b2a3e solid 2px;
+}
+
+.h-rule__stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/_media/img/va/stars_blue.png) no-repeat center;
+    background-size: 10rem auto;
+    margin: 1.6rem auto auto;
+    padding: 2rem 0 0;
+    text-align: center;
+    clear: both;
+}
+
+.h-rule__stars::before {
+    margin-right: 6rem;
+ 
+}
+.h-rule__stars::after {
+    margin-left: 6rem;
+    
+}
+
+.h-rule__stars::before,
+.h-rule__stars::after {
+    display: inline-block;
+    border-top: 1px solid #1b2a3e;
+    content: " ";
+    flex: 1 1 50%;
+    padding: 1rem 0;
+}
+
+@media screen and (min-width: 768px) {
+    .h-rule__stars {
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 60em) {
+    .mobile-hide {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+a:focus {
+    outline: 2px solid color('warning');
+}
+
+.show-for-sr,
+.usa-skipnav {
+    /*! clip:rect(1px,1px,1px,1px); */
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    width: 1px
+}
+
+.usa-skipnav:active,
+.usa-skipnav:focus {
+    position: static !important;
+    height: auto;
+    width: auto;
+    overflow: visible;
+    clip: auto
+}
+
+.usa-skipnav {
+    position: absolute;
+    top: -10em;
+     background: #f9f9f9;
+    padding: 1em;
+    margin: 1em;
+   color: color('primary-dark');
+    display: block;
+    font-weight: 600
+}
+
+body {
+    background-color: $body-background-color;
+}
+
+
+.iewrap-fix {
+  max-width: 20ch;
+}

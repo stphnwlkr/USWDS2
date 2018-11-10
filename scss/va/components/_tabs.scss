@@ -1,0 +1,97 @@
+/*Tabs*/
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tabs__tab {
+    width: 100%;
+}
+
+.tabs__content {
+    display: none;
+    width: 100%;
+}
+
+.tabs__content-active {
+    display: block;
+}
+ .tabs__tab {
+      margin-top: 0;
+     background: $body-background-color;
+     color: color('ink');
+      & :hover {
+          background: color('base-lightest');
+          color: color('ink');
+      }
+      }
+
+ .tabs__tab:first-child {
+     margin-top: 0;
+ }
+
+ .tabs__toggle {
+     width: 100%;
+     padding: 1rem 2rem;
+     border: 0;
+     border-top: 0.125rem solid transparent;
+     background: none;
+     text-align: left;
+ }
+
+ .tabs__toggle-active {
+     border-color: color('accent-warm-dark');
+     background: color('base-lightest');
+     color: color('ink');
+ }
+
+ .tabs__content {
+     padding: 2rem;
+     background: color('base-lightest');
+     color: color('ink');
+     box-sizing: border-box;
+     margin-top: 0;
+ }
+
+ @include at-media(spacing-multiple(110)) {
+     .tabs .tabs__tab {
+         order: -1;
+         width: auto;
+         margin-top: .5rem;
+         margin-right: 0.2rem;
+         & :hover {
+             background: color('base-lightest');
+             color: color('ink');
+             }
+         }
+
+     .tabs .tabs__toggle-active {
+         border-color: transparent;
+         background: none;
+         color: inherit;
+     }
+    .tabs__toggle {
+        width: 100%;
+        padding: .6rem 1rem;
+
+    }
+     .tabs .tabs__toggle-active-last {
+           border-color: color('accent-warm-dark');
+           background: color('base-lightest');
+           color: color('ink');
+           margin-top: 0;
+     }
+
+     .tabs .tabs__content-active {
+         display: none;
+     }
+
+     .tabs .tabs__content-active-last {
+         display: block;
+         background: color('base-lightest');
+         color: color('ink');
+     }
+ }
+
+/* https: github.com/mdmoreau/flextabs*/

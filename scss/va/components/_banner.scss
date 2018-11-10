@@ -1,0 +1,185 @@
+/* CSS Document */
+
+.usa-banner {
+  background-color: #f0f0f0;
+  padding-bottom: 0;
+  @include media($small-screen) {
+    font-size: $h6-font-size;
+  }
+}
+
+.usa-banner-content {
+  @include padding(null $site-margins-mobile 3px $site-margins-mobile);
+  background-color: transparent;
+  font-size: $h5-font-size;
+  padding-top: 2rem;
+  width: 100%;
+  @include media($medium-screen) {
+    padding-bottom: 2.3rem;
+    padding-top: 4rem;
+  }
+  @include media($nav-width) {
+    @include padding(null $site-margins);
+  }
+  p {
+    &:first-child {
+      margin-top: 1rem;
+      @include media($medium-screen) {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.usa-banner-inner {
+  @include outer-container();
+  @include padding(null $site-margins-mobile);
+  max-width: 1440px;
+  @include media($nav-width) {
+    @include padding(null $site-margins);
+  }
+}
+
+.usa-banner-header {
+  font-size: 1.4rem;
+  font-weight: $font-normal;
+  p {
+    @include margin(0 null);
+    display: inline;
+    overflow: hidden;
+    vertical-align: middle;
+    @include media($small-screen) {
+      @include margin(0 0 2px 0);
+      display: inline-block;
+    }
+  }
+  img {
+    float: left;
+    margin-right: 1rem;
+    margin-top: 1px;
+    width: 2.4rem;
+    @include media($small-screen) {
+      margin-right: 0.7rem;
+    }
+  }
+}
+
+.usa-banner-header-expanded {
+  align-items: center;
+  border-bottom: 1px solid $color-gray-light;
+  display: flex;
+  font-size: $h5-font-size;
+  min-height: 5.6rem;
+  padding-right: 3rem;
+  @include media($small-screen) {
+    border-bottom: none;
+    display: block;
+    font-size: 1.4rem;
+    font-weight: $font-normal;
+    min-height: 0;
+    padding-right: 0;
+  }
+  >.usa-banner-inner {
+    margin-left: 0;
+    @include media($small-screen) {
+      margin-left: auto;
+    }
+  }
+  img {
+    @include media($small-screen) {
+      margin-right: 0.7rem;
+    }
+  }
+  p {
+    line-height: $heading-line-height;
+    vertical-align: top;
+    @include media($small-screen) {
+      line-height: $base-line-height;
+      vertical-align: middle;
+    }
+  }
+}
+
+.usa-banner-button {
+  @include button-unstyled;
+  @include padding(null null null 3.5rem);
+  background-position-x: right;
+  color: $color-primary;
+  display: block;
+  font-size: 1.4rem;
+  height: auto;
+  position: relative;
+  text-decoration: none;
+  top: 0;
+  width: 100%;
+  @include media($small-screen) {
+    @include padding(.5rem null .5rem 0);
+    /* stylelint-disable declaration-block-no-ignored-properties */
+    display: inline;
+    height: initial;
+    margin-left: 3.5rem;
+    position: relative;
+    vertical-align: middle;
+    width: initial;
+    /* stylelint-enable */
+  }
+  &:hover {
+    color: $color-primary-darker;
+    text-decoration: none;
+  }
+  &[aria-expanded=false] {
+    background-image: none;
+    &::after {
+      background-position-y: 1px;
+      font-family: 'FontAwesome';
+      content: "\f103";
+      text-decoration: none;
+    }
+  }
+  &[aria-expanded=true] {
+    background-image: none;
+    font-size: 1.4rem;
+    height: auto;
+    @include media($small-screen) {
+      height: initial;
+      padding: 0;
+      position: relative;
+      &::after {
+        font-family: 'FontAwesome';
+        content: "\f102";
+        background-position-y: 1px;
+      }
+    }
+    &::after {
+      font-family: 'FontAwesome';
+      content: "\f102";
+      position: relative;
+      margin-left: 8px;
+      @include media($small-screen) {
+        position: static;
+      }
+    }
+    .usa-banner-button-text {
+      display: inline-block;
+      @include media($small-screen) {
+        display: inline;
+      }
+    }
+  }
+}
+
+.usa-banner-icon {
+  width: 3.8rem;
+}
+
+.usa-banner-inner {
+  padding: 0 !important;
+}
+
+.usa-banner-guidance-gov {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  line-height: 1.7;
+  display: table-cell;
+  vertical-align: middle;
+}

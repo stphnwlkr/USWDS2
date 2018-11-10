@@ -1,0 +1,19 @@
+.columns__two-columns{
+    column-count:2 ;
+    column-gap: 2rem;
+    column-width: 320px;
+
+}
+
+.columns__three-columns {
+    column-count: 3;
+    column-gap: 2rem;
+    column-width: 280px;
+
+}
+
+.columns__divider {
+    column-rule: 1px;
+    column-rule-color: color('base-lighter');
+    column-rule-style: solid;
+}
