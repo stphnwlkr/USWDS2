@@ -64,7 +64,7 @@ ul.usa-unstyled-list.button-card-grid-wide {
 
 .button-card-light h3::after {
 	background-color: color('white');
-	background-image: url(/_media/img/va/button-light.png);
+	background-image: url(/media/img/va/button-light.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	border-radius: 2.5rem;
@@ -79,7 +79,7 @@ ul.usa-unstyled-list.button-card-grid-wide {
 
 .button-card-light:hover h3::after {
 	background-color: color('secondary-darker');
-	background-image: url(/_media/img/va/button-light-inverse.png);
+	background-image: url(/media/img/va/button-light-inverse.png);
 	opacity: 1.0;
 	filter: alpha(opacity=100);
 	/*position where

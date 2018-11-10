@@ -78,32 +78,30 @@ Output all USWDS
 @include render-utilities-in($utilities-package);
 
 //VA
-@import '../va/core/mixins';
-@import '../va/core/variables';
+@import '../ext/core/mixins';
+@import '../ext/core/variables';
 
-@import '../va/utilities/helpers';
-@import '../va/utilities/images';
-@import '../va/utilities/breadcrumbs';
-@import '../va/utilities/columns';
-@import '../va/utilities/socialmedia';
-@import '../va/utilities/transitions';
+@import '../ext/utilities/helpers';
+@import '../ext/utilities/images';
+@import '../ext/utilities/breadcrumbs';
+@import '../ext/utilities/columns';
+@import '../ext/utilities/socialmedia';
+@import '../ext/utilities/transitions';
 
-@import '../va/elements/typography';
-@import '../va/elements/tables';
-@import '../va/elements/buttons';
+@import '../ext/elements/typography';
+@import '../ext/elements/tables';
+@import '../ext/elements/buttons';
 
-@import '../va/components/accordion';
-@import '../va/components/header';
-@import '../va/components/footer';
-@import '../va/components/nav';
-@import '../va/components/sections';
-@import '../va/components/tabs';
-@import '../va/components/cards';
-@import '../va/components/content-sidebar';
-@import '../va/components/button-cards';
-@import '../va/components/flex-cards';
-@import '../va/components/crisis-line-button';
-@import '../va/components/crisis-line';
-@import '../va/components/hero-callout';
-@import '../va/components/sharing';
-@import '../va/components/progress';
+@import '../ext/components/accordion';
+@import '../ext/components/header';
+@import '../ext/components/footer';
+@import '../ext/components/nav';
+@import '../ext/components/sections';
+@import '../ext/components/tabs';
+@import '../ext/components/cards';
+@import '../ext/components/content-sidebar';
+@import '../ext/components/button-cards';
+@import '../ext/components/flex-cards';
+@import '../ext/components/hero-callout';
+@import '../ext/components/sharing';
+@import '../ext/components/progress';

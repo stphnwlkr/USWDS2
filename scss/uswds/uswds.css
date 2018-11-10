@@ -67275,7 +67275,7 @@ abbr {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(/_media/img/va/stars_blue.png) no-repeat center;
+  background: url(/media/img/va/stars_blue.png) no-repeat center;
   background-size: 10rem auto;
   margin: 1.6rem auto auto;
   padding: 2rem 0 0;
@@ -68997,21 +68997,21 @@ footer nav a:visited {
 }
 
 .threaded-background {
-  background-image: url("/_media/img/backgrounds/thread.png");
+  background-image: url("img/backgrounds/thread.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .threaded-light-background {
-  background-image: url("/_media/img/backgrounds/thread_white.png");
+  background-image: url("img/backgrounds/thread_white.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .threaded-lightest-background {
-  background-image: url("/_media/img/backgrounds/thread_light.png");
+  background-image: url("img/backgrounds/thread_light.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -69578,7 +69578,7 @@ ul.usa-unstyled-list.button-card-grid-wide {
 
 .button-card-light h3::after {
   background-color: white;
-  background-image: url(/_media/img/va/button-light.png);
+  background-image: url(/media/img/va/button-light.png);
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 2.5rem;
@@ -69593,7 +69593,7 @@ ul.usa-unstyled-list.button-card-grid-wide {
 
 .button-card-light:hover h3::after {
   background-color: #8b1303;
-  background-image: url(/_media/img/va/button-light-inverse.png);
+  background-image: url(/media/img/va/button-light-inverse.png);
   opacity: 1.0;
   filter: alpha(opacity=100);
   /*position where
@@ -69787,7 +69787,7 @@ button.crisis-line-button {
 
 @media screen and (min-width: 64rem) {
   button.crisis-line-button {
-    background: white url(/_media/img/uswds/arrow-right.svg) calc(100% - .4em) 0.8rem no-repeat white;
+    background: white url(/media/img/uswds/arrow-right.svg) calc(100% - .4em) 0.8rem no-repeat white;
     background-size: .8em auto;
     border-radius: 0 0 0.2em 0.2em;
     -webkit-box-shadow: 0 2px 5px #171717;
@@ -69804,7 +69804,7 @@ button.crisis-line-button:hover {
 
 button.crisis-line-button .vcl {
   content: "";
-  background: url(/_media/img/va/vcl-logo.png) right 49% no-repeat;
+  background: url(/media/img/va/vcl-logo.png) right 49% no-repeat;
   background-size: 100%;
   display: inline-block;
   width: 2em;
@@ -69949,7 +69949,7 @@ button.crisis-line-button .vcl {
 .modal-title {
   color: #171717;
   padding-left: 41px;
-  background: url(/_media/img/va/vcl-logo.png) no-repeat 0;
+  background: url(/media/img/va/vcl-logo.png) no-repeat 0;
   background-position-x: 0px;
   background-position-y: center;
   background-size: auto auto;
@@ -70013,8 +70013,8 @@ button.crisis-line-button .vcl {
 }
 
 .modal span.exit-icon {
-  background-image: url(https://www.oit.va.gov/_media/img/uswds/close-primary.png);
-  background-image: url(https://www.oit.va.gov/_media/img/uswds/close-primary.svg);
+  background-image: url(https://www.oit.va.govimg/uswds/close-primary.png);
+  background-image: url(https://www.oit.va.govimg/uswds/close-primary.svg);
   background-position: 100% 50%;
   background-repeat: no-repeat;
   background-size: .5em auto;
