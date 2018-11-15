@@ -9,12 +9,6 @@
 ----------------------------------------
 USWDS GENERAL SETTINGS
 ----------------------------------------
--
-Read more about settings and
-USWDS style tokens in the documentation:
-https://v2.designsystem.digital.gov/style-tokens
--
-----------------------------------------
 */
 
 /*
@@ -27,17 +21,6 @@ Relative font and image file paths
 
 $theme-font-path:   '../fonts' !default;
 $theme-image-path:  '../img/uswds' !default;
-
-/*
-----------------------------------------
-Show compile warnings
-----------------------------------------
-Show Sass warnings when functions and
-mixins use nonstanard or false tokens.
-----------------------------------------
-*/
-
-$theme-show-compile-warnings: true !default;
 
 /*
 ----------------------------------------
@@ -78,7 +61,6 @@ $theme-focus-color: 'yellow-20v' !default;
 $theme-focus-offset: 0 !default;
 $theme-focus-style:  solid !default;
 $theme-focus-width:  2px !default; 
-
 /*
 ----------------------------------------
 Icons

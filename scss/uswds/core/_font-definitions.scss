@@ -149,7 +149,7 @@ $system-font-definitions: (
   'public-sans': (
     name: 'Public Sans Web',
     dir: 'public-sans',
-    stack: $font-stack-helvetica,
+    stack: $font-stack-system,
     system-font: false,
     cap-height: 362px,
     generate: true,
