@@ -77,7 +77,7 @@ Output all USWDS
 @import 'utilities/rules/package';
 @include render-utilities-in($utilities-package);
 
-//VA
+//EXTENDED
 @import '../ext/core/mixins';
 @import '../ext/core/variables';
 
