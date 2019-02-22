@@ -43,7 +43,7 @@ $theme-color-primary:               'blue-60v' !default;
 $theme-color-primary-vivid:         'blue-warm-60v' !default;
 $theme-color-primary-dark:          'blue-warm-70v' !default;
 $theme-color-primary-darker:        'blue-warm-80v' !default;
-$theme-color-primary-darkest:       false !default;
+$theme-color-primary-darkest:       'blue-90v' !default;
 
 // Secondary colors
 $theme-color-secondary-family:      'red' !default;
@@ -54,7 +54,7 @@ $theme-color-secondary:             'red-50' !default;
 $theme-color-secondary-vivid:       'red-cool-50v' !default;
 $theme-color-secondary-dark:        'red-60v' !default;
 $theme-color-secondary-darker:      'red-70v' !default;
-$theme-color-secondary-darkest:     false !default;
+$theme-color-secondary-darkest:     'red-80v' !default;
 
 // Accent warm colors
 $theme-color-accent-warm-family:    'orange' !default;
@@ -64,7 +64,7 @@ $theme-color-accent-warm-light:     'orange-20v' !default;
 $theme-color-accent-warm:           'orange-30v' !default;
 $theme-color-accent-warm-dark:      'orange-50v' !default;
 $theme-color-accent-warm-darker:    'orange-60' !default;
-$theme-color-accent-warm-darkest:   false !default;
+$theme-color-accent-warm-darkest:   'orange-70' !default;
 
 // Accent cool colors
 $theme-color-accent-cool-family:    'blue-cool' !default;
@@ -74,7 +74,7 @@ $theme-color-accent-cool-light:     'blue-cool-20v' !default;
 $theme-color-accent-cool:           'cyan-30v' !default;
 $theme-color-accent-cool-dark:      'blue-cool-40v' !default;
 $theme-color-accent-cool-darker:    'blue-cool-60v' !default;
-$theme-color-accent-cool-darkest:   false !default;
+$theme-color-accent-cool-darkest:   'blue-cool-80v' !default;
 
 /*
 ----------------------------------------
