@@ -161,9 +161,9 @@ system:
 ----------------------------------------
 */
 
-$theme-font-mono:   'roboto-mono' !default;
-$theme-font-sans:   'public-sans' !default;
-$theme-font-serif:  'merriweather' !default;
+$theme-font-mono:   'system' !default;
+$theme-font-sans:   'system'  !default;
+$theme-font-serif:  'system' !default;
 $theme-font-cond:   false !default;
 
 /*
@@ -216,13 +216,13 @@ Or use `false` for unneeded weights.
 ----------------------------------------
 */
 
-$theme-output-all-weights:        false !default;
+$theme-output-all-weights:        true !default;
 
 $theme-font-weight-thin:          100 !default;
 $theme-font-weight-light:         300 !default;
 $theme-font-weight-normal:        400 !default;
-$theme-font-weight-medium:        false !default;
-$theme-font-weight-semibold:      false !default;
+$theme-font-weight-medium:        500 !default;
+$theme-font-weight-semibold:      f600 !default;
 $theme-font-weight-bold:          700 !default;
 $theme-font-weight-heavy:         900 !default;
 

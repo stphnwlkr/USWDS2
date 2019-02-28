@@ -1,0 +1,57 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: spacing-multiple(2);
+}
+
+.card__image {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+
+	&::before {
+		content: "";
+		display: block;
+		padding-top: 65%; // 16:9 aspect ratio
+	}
+}
+
+.card__body {
+	flex: 1 1 auto;
+	padding: spacing-multiple(2);
+
+}
+
+.card__title {
+	display: block;
+	padding-left: spacing-multiple(2);
+	padding-right: spacing-multiple(2);
+}
+
+.card__action {
+	display: block;
+	width: 100%;
+	bottom: 0;
+	padding: spacing-multiple(2);
+	margin-top: spacing-multiple(2);
+}
+
+.card__action-block {
+	text-align: center;
+	padding: 0;
+
+	.usa-button {
+		display: block;
+		width: 100%;
+	}
+}
+
+.cards {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 1rem;
+}
