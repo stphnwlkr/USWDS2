@@ -1,3 +1,10 @@
+.cards {
+    display: grid;
+	padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 1rem;
+} 
+
 .card {
 	display: flex;
 	flex-direction: column;
@@ -49,9 +56,3 @@
 	}
 }
 
-.cards {
-    display: grid;
-    padding: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    grid-gap: 1rem;
-}

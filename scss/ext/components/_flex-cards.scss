@@ -1,57 +1,7 @@
 /* Flex Cards */
 
-.card {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	margin: spacing-multiple(2);
-}
 
-.card-image {
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	overflow: hidden;
-	position: relative;
-
-	&::before {
-		content: "";
-		display: block;
-		padding-top: 65%; // 16:9 aspect ratio
-	}
-}
-
-.card-body {
-	flex: 1 1 auto;
-	padding: spacing-multiple(2);
-
-}
-
-.card-title {
-	display: block;
-	padding-left: spacing-multiple(2);
-	padding-right: spacing-multiple(2);
-}
-
-.card-action {
-	display: block;
-	width: 100%;
-	bottom: 0;
-	padding: spacing-multiple(2);
-	margin-top: spacing-multiple(2);
-}
-
-.card-action__block {
-	text-align: center;
-	padding: 0;
-
-	.usa-button {
-		display: block;
-		width: 100%;
-	}
-}
-
-.cards {
+.flex-cards {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap
@@ -59,10 +9,10 @@
 
 @include at-media(spacing-multiple(80)) {
 
-	.cards__2wide>*,
-	.cards__3wide>*,
-	.cards__4wide>*,
-	.cards__5wide>*,
+	.flex-cards--2wide>*,
+	.flex-cards--3wide>*,
+	.flex-cards--4wide>*,
+	.flex-cards--5wide>*,
 		{
 		width: calc(50% - 2rem);
 
@@ -70,19 +20,19 @@
 }
 
 @include at-media(spacing-multiple(128)) {
-	.cards__3wide>* {
+	.flex-cards--3wide>* {
 		width: calc(33% - 2rem);
 	}
 }
 
 @include at-media(spacing-multiple(128)) {
-	.cards__4wide>* {
+	.flex-cards--4wide>* {
 		width: calc(25% - 2rem);
 	}
 }
 
 @include at-media(spacing-multiple(128)) {
-	.cards__5wide>* {
+	.flex-cards--5wide>* {
 		width: calc(20% - 2rem);
 	}
 }
