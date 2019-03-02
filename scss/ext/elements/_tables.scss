@@ -1,21 +1,21 @@
 /* CSS Document */
 
-.usa-table__border__light {
+.usa-table__border--light {
   th,
   td {
     border: 1px solid color('base-lighter') !important;
   }
 }
-.usa-table__striped>tbody>tr:nth-child(odd)>td,
-.usa-table__striped>tbody>tr:nth-child(odd)>th {
+.usa-table--striped>tbody>tr:nth-child(odd)>td,
+.usa-table--striped>tbody>tr:nth-child(odd)>th {
   background-color: transparent;
 }
-.usa-table__striped>tbody>tr:nth-child(even)>td,
-.usa-table__striped>tbody>tr:nth-child(even)>th {
+.usa-table--striped>tbody>tr:nth-child(even)>td,
+.usa-table--striped>tbody>tr:nth-child(even)>th {
   background-color: color('base-lightest');
 }
 
-.usa-table__compressed {
+.usa-table--compressed {
   thead>tr>th {
     padding:  spacing-multiple(0.5);
   }
@@ -43,7 +43,7 @@ table caption {
   font-size: 1rem;
 }
 
-.usa-table__primary thead {
+.usa-table--primary thead {
   th,
   td {
     background-color: color('primary');
@@ -51,7 +51,7 @@ table caption {
   }
 }
 
-.usa-table__primary-darker thead {
+.usa-table--primary-darker thead {
   th,
   td {
     background-color: color('primary-darker');
@@ -60,7 +60,7 @@ table caption {
 }
 
 
-.usa-table__primary-midnight thead {
+.usa-table--primary-midnight thead {
   th,
   td {
     background-color: $color-blue-midnight;
@@ -68,7 +68,7 @@ table caption {
   }
 }
 
-.usa-table__accent-cool thead {
+.usa-table--accent-cool thead {
   th,
   td {
     background-color: color('accent-cool');
@@ -76,7 +76,7 @@ table caption {
   }
 }
 
-.usa-table__accent-cool-darker thead {
+.usa-table--accent-cool-darker thead {
   th,
   td {
     background-color: color('accent-cool-darker');
@@ -84,7 +84,7 @@ table caption {
   }
 }
 
-.usa-table__secondary-darker thead {
+.usa-table--secondary-darker thead {
   th,
   td {
     background-color: color('secondary-darker');
@@ -92,7 +92,7 @@ table caption {
   }
 }
 
-.usa-table__green thead {
+.usa-table--green thead {
   th,
   td {
     background-color: color('success-darker');
@@ -100,14 +100,14 @@ table caption {
   }
 }
 
-.usa-table__base-darker thead {
+.usa-table--base-darker thead {
   th,
   td {
     background-color: color('base-darker');
     color: color('white');
   }
 }
-.usa-table__accent-warm-dark thead {
+.usa-table--accent-warm-dark thead {
   th,
   td {
     background-color: color('accent-warm-dark');

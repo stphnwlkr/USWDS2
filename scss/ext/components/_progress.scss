@@ -42,12 +42,12 @@
   background-color: color('base-lightest');
 }
 
-.progress-bar {
+.progress__bar {
   height: 2rem;
   padding: 0 4px;
 }
 
-.progress-bar span {
+.progress__bar span {
   padding: 2px;
   display: inline-block;
   overflow: hidden;
@@ -59,7 +59,7 @@
   text-shadow:none;
 }
 
-.progress-bar__striped {
+.progress__bar--striped {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -67,7 +67,7 @@
   background-size: 1rem 1rem;
 }
 
-.progress-bar__animated {
+.progress__bar--animated {
   -webkit-animation: progress-bar-stripes 1s linear infinite;
   -o-animation: progress-bar-stripes 1s linear infinite;
   animation: progress-bar-stripes 1s linear infinite;
