@@ -6,7 +6,7 @@
 }
 /* primary  */
 
-.usa-accordio__button--primary {
+.usa-accordion__button--primary {
 	background-image: url("../img/uswds/minus-white.png");
 	background-color: color('primary');
 	color: color('white');
@@ -17,13 +17,13 @@
 	}
 }
 
-.usa-accordio__button--primary[aria-expanded=false] {
+.usa-accordion__button--primary[aria-expanded=false] {
 	background-image: url("../img/uswds/plus-white.png");
 }
 
 /* primary darkest */
 
-.usa-accordio__button--primary-darkest {
+.usa-accordion__button--primary-darkest {
 	background-image: url("../img/uswds/minus-white.png");
 	background-color: $color-blue-midnight;
 	color: color('white');
@@ -34,13 +34,13 @@
 	}
 }
 
-.usa-accordio__button--primary-darkest[aria-expanded=false] {
+.usa-accordion__button--primary-darkest[aria-expanded=false] {
 	background-image: url("../img/uswds/plus-white.png");
 }
 
 /* base-darker */
 
-.usa-accordio__button--base-darker {
+.usa-accordion__button--base-darker {
 	background-image: url("../img/uswds/minus-white.png");
 	background-color: color('base-darker');
 	color: color('white');
@@ -51,13 +51,13 @@
 	}
 }
 
-.usa-accordio__button--base-darker[aria-expanded=false] {
+.usa-accordion__button--base-darker[aria-expanded=false] {
 	background-image: url("../img/uswds/plus-white.png");
 }
 
 /* secondary darkest */ 
 
-.usa-accordio__button--secondary-darkest {
+.usa-accordion__button--secondary-darkest {
 	background-image: url("../img/uswds/minus-white.png");
 	background-color: color('secondary-darkest');
 	color: color('white');
@@ -68,13 +68,13 @@
 	}
 }
 
-.usa-accordio__button--secondary-darkest[aria-expanded=false] {
+.usa-accordion__button--secondary-darkest[aria-expanded=false] {
 	background-image: url("../img/uswds/plus-white.png");
 }
 
 /* green */
 
-.usa-accordio__button--green {
+.usa-accordion__button--green {
 	background-image: url("../img/uswds/minus-white.png");
 	background-color: color('success-dark');
 	color: color('white');
@@ -86,7 +86,7 @@
 	}
 }
 
-.usa-accordio__button--green[aria-expanded=false] {
+.usa-accordion__button--green[aria-expanded=false] {
 	background-image: url("../img/uswds/plus-white.png");
 
 	&:hover {
@@ -96,7 +96,7 @@
 
 /* warm dark */
 
-.usa-accordio__button--accent-warm-dark {
+.usa-accordion__button--accent-warm-dark {
 	background-image: url("../img/uswds/minus-white.png");
 	background-color: color('accent-warm-dark');
 	color: color('white');
@@ -107,13 +107,13 @@
 	}
 }
 
-.usa-accordio__button--accent-warm-dark[aria-expanded=false] {
+.usa-accordion__button--accent-warm-dark[aria-expanded=false] {
 	background-image: url("../img/uswds/plus-white.png");
 }
 
 /* warm darker */
 
-.usa-accordio__button--accent-warm-darker {
+.usa-accordion__button--accent-warm-darker {
 	background-image: url("../img/uswds/minus-white.png");
 	background-color: color('accent-warm-darker');
 	color: color('white');
@@ -124,13 +124,13 @@
 	}
 }
 
-.usa-accordio__button--accent-warm-darker[aria-expanded=false] {
+.usa-accordion__button--accent-warm-darker[aria-expanded=false] {
 	background-image: url("../img/uswds/plus-white.png");
 }
 
 /* cool darker */
 
-.usa-accordio__button--accent-cool-darker {
+.usa-accordion__button--accent-cool-darker {
 	background-color: color('accent-cool-darker');
 	background-image: url("../img/uswds/minus-white.png");
 	color: color('white');
@@ -142,7 +142,7 @@
 	}
 }
 
-.usa-accordio__button--accent-cool-darker[aria-expanded=false] {
+.usa-accordion__button--accent-cool-darker[aria-expanded=false] {
 	background-image: url("../img/uswds/plus-white.png");
 
 	&:hover {
@@ -154,7 +154,7 @@
 
 /* primary lighter */
 
-.usa-accordio__button--primary-lighter {
+.usa-accordion__button--primary-lighter {
 	background-color: color('primary-lighter');
 
 	&:hover {
@@ -162,7 +162,7 @@
 	}
 }
 
-.usa-accordio__button--primary-lighter[aria-expanded=false] {
+.usa-accordion__button--primary-lighter[aria-expanded=false] {
 	background-color: color('primary-lighter');
 		&:hover {
 			background-color: color('primary-light');
@@ -171,7 +171,7 @@
 
 /* cool lighter */
 
-.usa-accordio__button--accent-cool-lighter {
+.usa-accordion__button--accent-cool-lighter {
 	background-color: color('accent-cool-lighter');
 
 	&:hover {
@@ -179,7 +179,7 @@
 	}
 }
 
-.usa-accordio__button--accent-cool-lighter[aria-expanded=false] {
+.usa-accordion__button--accent-cool-lighter[aria-expanded=false] {
 	background-color: color('accent-cool-lighter');
 	&:hover {
 		background-color: color('accent-cool-light');
@@ -188,7 +188,7 @@
 
 /* primary lighter */
 
-.usa-accordio__button--secondary-lighter {
+.usa-accordion__button--secondary-lighter {
 	background-color: color('secondary-lighter');
 
 	&:hover {
@@ -196,7 +196,7 @@
 	}
 }
 
-.usa-accordio__button--secondary-lighter[aria-expanded=false] {
+.usa-accordion__button--secondary-lighter[aria-expanded=false] {
 	background-color: color('secondary-lighter');
 
 	&:hover {
@@ -206,7 +206,7 @@
 
 /* cool lighter */
 
-.usa-accordio__button--accent-warm-lighter {
+.usa-accordion__button--accent-warm-lighter {
 	background-color: color('accent-warm-lighter');
 
 	&:hover {
@@ -214,7 +214,7 @@
 	}
 }
 
-.usa-accordio__button--accent-warm-lighter[aria-expanded=false] {
+.usa-accordion__button--accent-warm-lighter[aria-expanded=false] {
 	background-color: color('accent-warm-lighter');
 
 	&:hover {
