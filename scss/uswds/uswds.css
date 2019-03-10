@@ -962,7 +962,7 @@ utilities to reference.
 }
 
 [class*='font-serif-'] {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  font-family: "Merriweather Web", "Georgia", "Cambria", "Times New Roman", "Times", serif !important;
 }
 
 [class*='font-ui-'] {
@@ -982,7 +982,7 @@ utilities to reference.
 }
 
 [class*='font-alt-'] {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  font-family: "Merriweather Web", "Georgia", "Cambria", "Times New Roman", "Times", serif !important;
 }
 
 /*
@@ -1107,6 +1107,34 @@ through all possible variants
 */
 /* stylelint-enable */
 /* stylelint-disable */
+@font-face {
+  font-family: Merriweather Web;
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/merriweather/merriweather-light-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/merriweather/merriweather-light-webfont.woff2) format("woff2"), url(../fonts/merriweather/merriweather-light-webfont.woff) format("woff"), url(../fonts/merriweather/merriweather-light-webfont.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Merriweather Web;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/merriweather/merriweather-regular-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/merriweather/merriweather-regular-webfont.woff2) format("woff2"), url(../fonts/merriweather/merriweather-regular-webfont.woff) format("woff"), url(../fonts/merriweather/merriweather-regular-webfont.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Merriweather Web;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/merriweather/merriweather-bold-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/merriweather/merriweather-bold-webfont.woff2) format("woff2"), url(../fonts/merriweather/merriweather-bold-webfont.woff) format("woff"), url(../fonts/merriweather/merriweather-bold-webfont.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Merriweather Web;
+  font-style: italic;
+  font-weight: 400;
+  src: url(../fonts/merriweather/merriweather-italic-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/merriweather/merriweather-italic-webfont.woff2) format("woff2"), url(../fonts/merriweather/merriweather-italic-webfont.woff) format("woff"), url(../fonts/merriweather/merriweather-italic-webfont.ttf) format("truetype");
+}
+
 /* stylelint-enable */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -2320,8 +2348,8 @@ img {
 }
 
 .usa-table caption, .usa-prose > table caption {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 0.9375rem;
+  font-family: "Merriweather Web", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-size: 0.88149rem;
   font-weight: 700;
   margin-bottom: 0.75rem;
   text-align: left;
@@ -48713,479 +48741,479 @@ example:
 }
 
 .font-serif-3xs {
-  font-size: 0.8125rem !important;
+  font-size: 0.76396rem !important;
 }
 
 .hover\:font-serif-3xs:hover {
-  font-size: 0.8125rem !important;
+  font-size: 0.76396rem !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:font-serif-3xs {
-    font-size: 0.8125rem !important;
+    font-size: 0.76396rem !important;
   }
   .mobile\:font-serif-3xs .mobile\:hover\:font-serif-3xs:hover {
-    font-size: 0.8125rem !important;
+    font-size: 0.76396rem !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:font-serif-3xs {
-    font-size: 0.8125rem !important;
+    font-size: 0.76396rem !important;
   }
   .mobile-lg\:font-serif-3xs .mobile-lg\:hover\:font-serif-3xs:hover {
-    font-size: 0.8125rem !important;
+    font-size: 0.76396rem !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:font-serif-3xs {
-    font-size: 0.8125rem !important;
+    font-size: 0.76396rem !important;
   }
   .tablet\:font-serif-3xs .tablet\:hover\:font-serif-3xs:hover {
-    font-size: 0.8125rem !important;
+    font-size: 0.76396rem !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:font-serif-3xs {
-    font-size: 0.8125rem !important;
+    font-size: 0.76396rem !important;
   }
   .tablet-lg\:font-serif-3xs .tablet-lg\:hover\:font-serif-3xs:hover {
-    font-size: 0.8125rem !important;
+    font-size: 0.76396rem !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:font-serif-3xs {
-    font-size: 0.8125rem !important;
+    font-size: 0.76396rem !important;
   }
   .desktop\:font-serif-3xs .desktop\:hover\:font-serif-3xs:hover {
-    font-size: 0.8125rem !important;
+    font-size: 0.76396rem !important;
   }
 }
 
 .font-serif-2xs {
-  font-size: 0.875rem !important;
+  font-size: 0.82273rem !important;
 }
 
 .hover\:font-serif-2xs:hover {
-  font-size: 0.875rem !important;
+  font-size: 0.82273rem !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:font-serif-2xs {
-    font-size: 0.875rem !important;
+    font-size: 0.82273rem !important;
   }
   .mobile\:font-serif-2xs .mobile\:hover\:font-serif-2xs:hover {
-    font-size: 0.875rem !important;
+    font-size: 0.82273rem !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:font-serif-2xs {
-    font-size: 0.875rem !important;
+    font-size: 0.82273rem !important;
   }
   .mobile-lg\:font-serif-2xs .mobile-lg\:hover\:font-serif-2xs:hover {
-    font-size: 0.875rem !important;
+    font-size: 0.82273rem !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:font-serif-2xs {
-    font-size: 0.875rem !important;
+    font-size: 0.82273rem !important;
   }
   .tablet\:font-serif-2xs .tablet\:hover\:font-serif-2xs:hover {
-    font-size: 0.875rem !important;
+    font-size: 0.82273rem !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:font-serif-2xs {
-    font-size: 0.875rem !important;
+    font-size: 0.82273rem !important;
   }
   .tablet-lg\:font-serif-2xs .tablet-lg\:hover\:font-serif-2xs:hover {
-    font-size: 0.875rem !important;
+    font-size: 0.82273rem !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:font-serif-2xs {
-    font-size: 0.875rem !important;
+    font-size: 0.82273rem !important;
   }
   .desktop\:font-serif-2xs .desktop\:hover\:font-serif-2xs:hover {
-    font-size: 0.875rem !important;
+    font-size: 0.82273rem !important;
   }
 }
 
 .font-serif-xs {
-  font-size: 0.9375rem !important;
+  font-size: 0.88149rem !important;
 }
 
 .hover\:font-serif-xs:hover {
-  font-size: 0.9375rem !important;
+  font-size: 0.88149rem !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:font-serif-xs {
-    font-size: 0.9375rem !important;
+    font-size: 0.88149rem !important;
   }
   .mobile\:font-serif-xs .mobile\:hover\:font-serif-xs:hover {
-    font-size: 0.9375rem !important;
+    font-size: 0.88149rem !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:font-serif-xs {
-    font-size: 0.9375rem !important;
+    font-size: 0.88149rem !important;
   }
   .mobile-lg\:font-serif-xs .mobile-lg\:hover\:font-serif-xs:hover {
-    font-size: 0.9375rem !important;
+    font-size: 0.88149rem !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:font-serif-xs {
-    font-size: 0.9375rem !important;
+    font-size: 0.88149rem !important;
   }
   .tablet\:font-serif-xs .tablet\:hover\:font-serif-xs:hover {
-    font-size: 0.9375rem !important;
+    font-size: 0.88149rem !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:font-serif-xs {
-    font-size: 0.9375rem !important;
+    font-size: 0.88149rem !important;
   }
   .tablet-lg\:font-serif-xs .tablet-lg\:hover\:font-serif-xs:hover {
-    font-size: 0.9375rem !important;
+    font-size: 0.88149rem !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:font-serif-xs {
-    font-size: 0.9375rem !important;
+    font-size: 0.88149rem !important;
   }
   .desktop\:font-serif-xs .desktop\:hover\:font-serif-xs:hover {
-    font-size: 0.9375rem !important;
+    font-size: 0.88149rem !important;
   }
 }
 
 .font-serif-sm {
-  font-size: 1rem !important;
+  font-size: 0.94026rem !important;
 }
 
 .hover\:font-serif-sm:hover {
-  font-size: 1rem !important;
+  font-size: 0.94026rem !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:font-serif-sm {
-    font-size: 1rem !important;
+    font-size: 0.94026rem !important;
   }
   .mobile\:font-serif-sm .mobile\:hover\:font-serif-sm:hover {
-    font-size: 1rem !important;
+    font-size: 0.94026rem !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:font-serif-sm {
-    font-size: 1rem !important;
+    font-size: 0.94026rem !important;
   }
   .mobile-lg\:font-serif-sm .mobile-lg\:hover\:font-serif-sm:hover {
-    font-size: 1rem !important;
+    font-size: 0.94026rem !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:font-serif-sm {
-    font-size: 1rem !important;
+    font-size: 0.94026rem !important;
   }
   .tablet\:font-serif-sm .tablet\:hover\:font-serif-sm:hover {
-    font-size: 1rem !important;
+    font-size: 0.94026rem !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:font-serif-sm {
-    font-size: 1rem !important;
+    font-size: 0.94026rem !important;
   }
   .tablet-lg\:font-serif-sm .tablet-lg\:hover\:font-serif-sm:hover {
-    font-size: 1rem !important;
+    font-size: 0.94026rem !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:font-serif-sm {
-    font-size: 1rem !important;
+    font-size: 0.94026rem !important;
   }
   .desktop\:font-serif-sm .desktop\:hover\:font-serif-sm:hover {
-    font-size: 1rem !important;
+    font-size: 0.94026rem !important;
   }
 }
 
 .font-serif-md {
-  font-size: 1.0625rem !important;
+  font-size: 0.99903rem !important;
 }
 
 .hover\:font-serif-md:hover {
-  font-size: 1.0625rem !important;
+  font-size: 0.99903rem !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:font-serif-md {
-    font-size: 1.0625rem !important;
+    font-size: 0.99903rem !important;
   }
   .mobile\:font-serif-md .mobile\:hover\:font-serif-md:hover {
-    font-size: 1.0625rem !important;
+    font-size: 0.99903rem !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:font-serif-md {
-    font-size: 1.0625rem !important;
+    font-size: 0.99903rem !important;
   }
   .mobile-lg\:font-serif-md .mobile-lg\:hover\:font-serif-md:hover {
-    font-size: 1.0625rem !important;
+    font-size: 0.99903rem !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:font-serif-md {
-    font-size: 1.0625rem !important;
+    font-size: 0.99903rem !important;
   }
   .tablet\:font-serif-md .tablet\:hover\:font-serif-md:hover {
-    font-size: 1.0625rem !important;
+    font-size: 0.99903rem !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:font-serif-md {
-    font-size: 1.0625rem !important;
+    font-size: 0.99903rem !important;
   }
   .tablet-lg\:font-serif-md .tablet-lg\:hover\:font-serif-md:hover {
-    font-size: 1.0625rem !important;
+    font-size: 0.99903rem !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:font-serif-md {
-    font-size: 1.0625rem !important;
+    font-size: 0.99903rem !important;
   }
   .desktop\:font-serif-md .desktop\:hover\:font-serif-md:hover {
-    font-size: 1.0625rem !important;
+    font-size: 0.99903rem !important;
   }
 }
 
 .font-serif-lg {
-  font-size: 1.375rem !important;
+  font-size: 1.29286rem !important;
 }
 
 .hover\:font-serif-lg:hover {
-  font-size: 1.375rem !important;
+  font-size: 1.29286rem !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:font-serif-lg {
-    font-size: 1.375rem !important;
+    font-size: 1.29286rem !important;
   }
   .mobile\:font-serif-lg .mobile\:hover\:font-serif-lg:hover {
-    font-size: 1.375rem !important;
+    font-size: 1.29286rem !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:font-serif-lg {
-    font-size: 1.375rem !important;
+    font-size: 1.29286rem !important;
   }
   .mobile-lg\:font-serif-lg .mobile-lg\:hover\:font-serif-lg:hover {
-    font-size: 1.375rem !important;
+    font-size: 1.29286rem !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:font-serif-lg {
-    font-size: 1.375rem !important;
+    font-size: 1.29286rem !important;
   }
   .tablet\:font-serif-lg .tablet\:hover\:font-serif-lg:hover {
-    font-size: 1.375rem !important;
+    font-size: 1.29286rem !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:font-serif-lg {
-    font-size: 1.375rem !important;
+    font-size: 1.29286rem !important;
   }
   .tablet-lg\:font-serif-lg .tablet-lg\:hover\:font-serif-lg:hover {
-    font-size: 1.375rem !important;
+    font-size: 1.29286rem !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:font-serif-lg {
-    font-size: 1.375rem !important;
+    font-size: 1.29286rem !important;
   }
   .desktop\:font-serif-lg .desktop\:hover\:font-serif-lg:hover {
-    font-size: 1.375rem !important;
+    font-size: 1.29286rem !important;
   }
 }
 
 .font-serif-xl {
-  font-size: 2rem !important;
+  font-size: 1.88052rem !important;
 }
 
 .hover\:font-serif-xl:hover {
-  font-size: 2rem !important;
+  font-size: 1.88052rem !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:font-serif-xl {
-    font-size: 2rem !important;
+    font-size: 1.88052rem !important;
   }
   .mobile\:font-serif-xl .mobile\:hover\:font-serif-xl:hover {
-    font-size: 2rem !important;
+    font-size: 1.88052rem !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:font-serif-xl {
-    font-size: 2rem !important;
+    font-size: 1.88052rem !important;
   }
   .mobile-lg\:font-serif-xl .mobile-lg\:hover\:font-serif-xl:hover {
-    font-size: 2rem !important;
+    font-size: 1.88052rem !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:font-serif-xl {
-    font-size: 2rem !important;
+    font-size: 1.88052rem !important;
   }
   .tablet\:font-serif-xl .tablet\:hover\:font-serif-xl:hover {
-    font-size: 2rem !important;
+    font-size: 1.88052rem !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:font-serif-xl {
-    font-size: 2rem !important;
+    font-size: 1.88052rem !important;
   }
   .tablet-lg\:font-serif-xl .tablet-lg\:hover\:font-serif-xl:hover {
-    font-size: 2rem !important;
+    font-size: 1.88052rem !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:font-serif-xl {
-    font-size: 2rem !important;
+    font-size: 1.88052rem !important;
   }
   .desktop\:font-serif-xl .desktop\:hover\:font-serif-xl:hover {
-    font-size: 2rem !important;
+    font-size: 1.88052rem !important;
   }
 }
 
 .font-serif-2xl {
-  font-size: 2.5rem !important;
+  font-size: 2.35065rem !important;
 }
 
 .hover\:font-serif-2xl:hover {
-  font-size: 2.5rem !important;
+  font-size: 2.35065rem !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:font-serif-2xl {
-    font-size: 2.5rem !important;
+    font-size: 2.35065rem !important;
   }
   .mobile\:font-serif-2xl .mobile\:hover\:font-serif-2xl:hover {
-    font-size: 2.5rem !important;
+    font-size: 2.35065rem !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:font-serif-2xl {
-    font-size: 2.5rem !important;
+    font-size: 2.35065rem !important;
   }
   .mobile-lg\:font-serif-2xl .mobile-lg\:hover\:font-serif-2xl:hover {
-    font-size: 2.5rem !important;
+    font-size: 2.35065rem !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:font-serif-2xl {
-    font-size: 2.5rem !important;
+    font-size: 2.35065rem !important;
   }
   .tablet\:font-serif-2xl .tablet\:hover\:font-serif-2xl:hover {
-    font-size: 2.5rem !important;
+    font-size: 2.35065rem !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:font-serif-2xl {
-    font-size: 2.5rem !important;
+    font-size: 2.35065rem !important;
   }
   .tablet-lg\:font-serif-2xl .tablet-lg\:hover\:font-serif-2xl:hover {
-    font-size: 2.5rem !important;
+    font-size: 2.35065rem !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:font-serif-2xl {
-    font-size: 2.5rem !important;
+    font-size: 2.35065rem !important;
   }
   .desktop\:font-serif-2xl .desktop\:hover\:font-serif-2xl:hover {
-    font-size: 2.5rem !important;
+    font-size: 2.35065rem !important;
   }
 }
 
 .font-serif-3xl {
-  font-size: 3rem !important;
+  font-size: 2.82078rem !important;
 }
 
 .hover\:font-serif-3xl:hover {
-  font-size: 3rem !important;
+  font-size: 2.82078rem !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:font-serif-3xl {
-    font-size: 3rem !important;
+    font-size: 2.82078rem !important;
   }
   .mobile\:font-serif-3xl .mobile\:hover\:font-serif-3xl:hover {
-    font-size: 3rem !important;
+    font-size: 2.82078rem !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:font-serif-3xl {
-    font-size: 3rem !important;
+    font-size: 2.82078rem !important;
   }
   .mobile-lg\:font-serif-3xl .mobile-lg\:hover\:font-serif-3xl:hover {
-    font-size: 3rem !important;
+    font-size: 2.82078rem !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:font-serif-3xl {
-    font-size: 3rem !important;
+    font-size: 2.82078rem !important;
   }
   .tablet\:font-serif-3xl .tablet\:hover\:font-serif-3xl:hover {
-    font-size: 3rem !important;
+    font-size: 2.82078rem !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:font-serif-3xl {
-    font-size: 3rem !important;
+    font-size: 2.82078rem !important;
   }
   .tablet-lg\:font-serif-3xl .tablet-lg\:hover\:font-serif-3xl:hover {
-    font-size: 3rem !important;
+    font-size: 2.82078rem !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:font-serif-3xl {
-    font-size: 3rem !important;
+    font-size: 2.82078rem !important;
   }
   .desktop\:font-serif-3xl .desktop\:hover\:font-serif-3xl:hover {
-    font-size: 3rem !important;
+    font-size: 2.82078rem !important;
   }
 }
 
@@ -50621,479 +50649,479 @@ example:
 }
 
 .font-alt-3xs {
-  font-size: 0.8125rem !important;
+  font-size: 0.76396rem !important;
 }
 
 .hover\:font-alt-3xs:hover {
-  font-size: 0.8125rem !important;
+  font-size: 0.76396rem !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:font-alt-3xs {
-    font-size: 0.8125rem !important;
+    font-size: 0.76396rem !important;
   }
   .mobile\:font-alt-3xs .mobile\:hover\:font-alt-3xs:hover {
-    font-size: 0.8125rem !important;
+    font-size: 0.76396rem !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:font-alt-3xs {
-    font-size: 0.8125rem !important;
+    font-size: 0.76396rem !important;
   }
   .mobile-lg\:font-alt-3xs .mobile-lg\:hover\:font-alt-3xs:hover {
-    font-size: 0.8125rem !important;
+    font-size: 0.76396rem !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:font-alt-3xs {
-    font-size: 0.8125rem !important;
+    font-size: 0.76396rem !important;
   }
   .tablet\:font-alt-3xs .tablet\:hover\:font-alt-3xs:hover {
-    font-size: 0.8125rem !important;
+    font-size: 0.76396rem !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:font-alt-3xs {
-    font-size: 0.8125rem !important;
+    font-size: 0.76396rem !important;
   }
   .tablet-lg\:font-alt-3xs .tablet-lg\:hover\:font-alt-3xs:hover {
-    font-size: 0.8125rem !important;
+    font-size: 0.76396rem !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:font-alt-3xs {
-    font-size: 0.8125rem !important;
+    font-size: 0.76396rem !important;
   }
   .desktop\:font-alt-3xs .desktop\:hover\:font-alt-3xs:hover {
-    font-size: 0.8125rem !important;
+    font-size: 0.76396rem !important;
   }
 }
 
 .font-alt-2xs {
-  font-size: 0.875rem !important;
+  font-size: 0.82273rem !important;
 }
 
 .hover\:font-alt-2xs:hover {
-  font-size: 0.875rem !important;
+  font-size: 0.82273rem !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:font-alt-2xs {
-    font-size: 0.875rem !important;
+    font-size: 0.82273rem !important;
   }
   .mobile\:font-alt-2xs .mobile\:hover\:font-alt-2xs:hover {
-    font-size: 0.875rem !important;
+    font-size: 0.82273rem !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:font-alt-2xs {
-    font-size: 0.875rem !important;
+    font-size: 0.82273rem !important;
   }
   .mobile-lg\:font-alt-2xs .mobile-lg\:hover\:font-alt-2xs:hover {
-    font-size: 0.875rem !important;
+    font-size: 0.82273rem !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:font-alt-2xs {
-    font-size: 0.875rem !important;
+    font-size: 0.82273rem !important;
   }
   .tablet\:font-alt-2xs .tablet\:hover\:font-alt-2xs:hover {
-    font-size: 0.875rem !important;
+    font-size: 0.82273rem !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:font-alt-2xs {
-    font-size: 0.875rem !important;
+    font-size: 0.82273rem !important;
   }
   .tablet-lg\:font-alt-2xs .tablet-lg\:hover\:font-alt-2xs:hover {
-    font-size: 0.875rem !important;
+    font-size: 0.82273rem !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:font-alt-2xs {
-    font-size: 0.875rem !important;
+    font-size: 0.82273rem !important;
   }
   .desktop\:font-alt-2xs .desktop\:hover\:font-alt-2xs:hover {
-    font-size: 0.875rem !important;
+    font-size: 0.82273rem !important;
   }
 }
 
 .font-alt-xs {
-  font-size: 0.9375rem !important;
+  font-size: 0.88149rem !important;
 }
 
 .hover\:font-alt-xs:hover {
-  font-size: 0.9375rem !important;
+  font-size: 0.88149rem !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:font-alt-xs {
-    font-size: 0.9375rem !important;
+    font-size: 0.88149rem !important;
   }
   .mobile\:font-alt-xs .mobile\:hover\:font-alt-xs:hover {
-    font-size: 0.9375rem !important;
+    font-size: 0.88149rem !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:font-alt-xs {
-    font-size: 0.9375rem !important;
+    font-size: 0.88149rem !important;
   }
   .mobile-lg\:font-alt-xs .mobile-lg\:hover\:font-alt-xs:hover {
-    font-size: 0.9375rem !important;
+    font-size: 0.88149rem !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:font-alt-xs {
-    font-size: 0.9375rem !important;
+    font-size: 0.88149rem !important;
   }
   .tablet\:font-alt-xs .tablet\:hover\:font-alt-xs:hover {
-    font-size: 0.9375rem !important;
+    font-size: 0.88149rem !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:font-alt-xs {
-    font-size: 0.9375rem !important;
+    font-size: 0.88149rem !important;
   }
   .tablet-lg\:font-alt-xs .tablet-lg\:hover\:font-alt-xs:hover {
-    font-size: 0.9375rem !important;
+    font-size: 0.88149rem !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:font-alt-xs {
-    font-size: 0.9375rem !important;
+    font-size: 0.88149rem !important;
   }
   .desktop\:font-alt-xs .desktop\:hover\:font-alt-xs:hover {
-    font-size: 0.9375rem !important;
+    font-size: 0.88149rem !important;
   }
 }
 
 .font-alt-sm {
-  font-size: 1rem !important;
+  font-size: 0.94026rem !important;
 }
 
 .hover\:font-alt-sm:hover {
-  font-size: 1rem !important;
+  font-size: 0.94026rem !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:font-alt-sm {
-    font-size: 1rem !important;
+    font-size: 0.94026rem !important;
   }
   .mobile\:font-alt-sm .mobile\:hover\:font-alt-sm:hover {
-    font-size: 1rem !important;
+    font-size: 0.94026rem !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:font-alt-sm {
-    font-size: 1rem !important;
+    font-size: 0.94026rem !important;
   }
   .mobile-lg\:font-alt-sm .mobile-lg\:hover\:font-alt-sm:hover {
-    font-size: 1rem !important;
+    font-size: 0.94026rem !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:font-alt-sm {
-    font-size: 1rem !important;
+    font-size: 0.94026rem !important;
   }
   .tablet\:font-alt-sm .tablet\:hover\:font-alt-sm:hover {
-    font-size: 1rem !important;
+    font-size: 0.94026rem !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:font-alt-sm {
-    font-size: 1rem !important;
+    font-size: 0.94026rem !important;
   }
   .tablet-lg\:font-alt-sm .tablet-lg\:hover\:font-alt-sm:hover {
-    font-size: 1rem !important;
+    font-size: 0.94026rem !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:font-alt-sm {
-    font-size: 1rem !important;
+    font-size: 0.94026rem !important;
   }
   .desktop\:font-alt-sm .desktop\:hover\:font-alt-sm:hover {
-    font-size: 1rem !important;
+    font-size: 0.94026rem !important;
   }
 }
 
 .font-alt-md {
-  font-size: 1.0625rem !important;
+  font-size: 0.99903rem !important;
 }
 
 .hover\:font-alt-md:hover {
-  font-size: 1.0625rem !important;
+  font-size: 0.99903rem !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:font-alt-md {
-    font-size: 1.0625rem !important;
+    font-size: 0.99903rem !important;
   }
   .mobile\:font-alt-md .mobile\:hover\:font-alt-md:hover {
-    font-size: 1.0625rem !important;
+    font-size: 0.99903rem !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:font-alt-md {
-    font-size: 1.0625rem !important;
+    font-size: 0.99903rem !important;
   }
   .mobile-lg\:font-alt-md .mobile-lg\:hover\:font-alt-md:hover {
-    font-size: 1.0625rem !important;
+    font-size: 0.99903rem !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:font-alt-md {
-    font-size: 1.0625rem !important;
+    font-size: 0.99903rem !important;
   }
   .tablet\:font-alt-md .tablet\:hover\:font-alt-md:hover {
-    font-size: 1.0625rem !important;
+    font-size: 0.99903rem !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:font-alt-md {
-    font-size: 1.0625rem !important;
+    font-size: 0.99903rem !important;
   }
   .tablet-lg\:font-alt-md .tablet-lg\:hover\:font-alt-md:hover {
-    font-size: 1.0625rem !important;
+    font-size: 0.99903rem !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:font-alt-md {
-    font-size: 1.0625rem !important;
+    font-size: 0.99903rem !important;
   }
   .desktop\:font-alt-md .desktop\:hover\:font-alt-md:hover {
-    font-size: 1.0625rem !important;
+    font-size: 0.99903rem !important;
   }
 }
 
 .font-alt-lg {
-  font-size: 1.375rem !important;
+  font-size: 1.29286rem !important;
 }
 
 .hover\:font-alt-lg:hover {
-  font-size: 1.375rem !important;
+  font-size: 1.29286rem !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:font-alt-lg {
-    font-size: 1.375rem !important;
+    font-size: 1.29286rem !important;
   }
   .mobile\:font-alt-lg .mobile\:hover\:font-alt-lg:hover {
-    font-size: 1.375rem !important;
+    font-size: 1.29286rem !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:font-alt-lg {
-    font-size: 1.375rem !important;
+    font-size: 1.29286rem !important;
   }
   .mobile-lg\:font-alt-lg .mobile-lg\:hover\:font-alt-lg:hover {
-    font-size: 1.375rem !important;
+    font-size: 1.29286rem !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:font-alt-lg {
-    font-size: 1.375rem !important;
+    font-size: 1.29286rem !important;
   }
   .tablet\:font-alt-lg .tablet\:hover\:font-alt-lg:hover {
-    font-size: 1.375rem !important;
+    font-size: 1.29286rem !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:font-alt-lg {
-    font-size: 1.375rem !important;
+    font-size: 1.29286rem !important;
   }
   .tablet-lg\:font-alt-lg .tablet-lg\:hover\:font-alt-lg:hover {
-    font-size: 1.375rem !important;
+    font-size: 1.29286rem !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:font-alt-lg {
-    font-size: 1.375rem !important;
+    font-size: 1.29286rem !important;
   }
   .desktop\:font-alt-lg .desktop\:hover\:font-alt-lg:hover {
-    font-size: 1.375rem !important;
+    font-size: 1.29286rem !important;
   }
 }
 
 .font-alt-xl {
-  font-size: 2rem !important;
+  font-size: 1.88052rem !important;
 }
 
 .hover\:font-alt-xl:hover {
-  font-size: 2rem !important;
+  font-size: 1.88052rem !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:font-alt-xl {
-    font-size: 2rem !important;
+    font-size: 1.88052rem !important;
   }
   .mobile\:font-alt-xl .mobile\:hover\:font-alt-xl:hover {
-    font-size: 2rem !important;
+    font-size: 1.88052rem !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:font-alt-xl {
-    font-size: 2rem !important;
+    font-size: 1.88052rem !important;
   }
   .mobile-lg\:font-alt-xl .mobile-lg\:hover\:font-alt-xl:hover {
-    font-size: 2rem !important;
+    font-size: 1.88052rem !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:font-alt-xl {
-    font-size: 2rem !important;
+    font-size: 1.88052rem !important;
   }
   .tablet\:font-alt-xl .tablet\:hover\:font-alt-xl:hover {
-    font-size: 2rem !important;
+    font-size: 1.88052rem !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:font-alt-xl {
-    font-size: 2rem !important;
+    font-size: 1.88052rem !important;
   }
   .tablet-lg\:font-alt-xl .tablet-lg\:hover\:font-alt-xl:hover {
-    font-size: 2rem !important;
+    font-size: 1.88052rem !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:font-alt-xl {
-    font-size: 2rem !important;
+    font-size: 1.88052rem !important;
   }
   .desktop\:font-alt-xl .desktop\:hover\:font-alt-xl:hover {
-    font-size: 2rem !important;
+    font-size: 1.88052rem !important;
   }
 }
 
 .font-alt-2xl {
-  font-size: 2.5rem !important;
+  font-size: 2.35065rem !important;
 }
 
 .hover\:font-alt-2xl:hover {
-  font-size: 2.5rem !important;
+  font-size: 2.35065rem !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:font-alt-2xl {
-    font-size: 2.5rem !important;
+    font-size: 2.35065rem !important;
   }
   .mobile\:font-alt-2xl .mobile\:hover\:font-alt-2xl:hover {
-    font-size: 2.5rem !important;
+    font-size: 2.35065rem !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:font-alt-2xl {
-    font-size: 2.5rem !important;
+    font-size: 2.35065rem !important;
   }
   .mobile-lg\:font-alt-2xl .mobile-lg\:hover\:font-alt-2xl:hover {
-    font-size: 2.5rem !important;
+    font-size: 2.35065rem !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:font-alt-2xl {
-    font-size: 2.5rem !important;
+    font-size: 2.35065rem !important;
   }
   .tablet\:font-alt-2xl .tablet\:hover\:font-alt-2xl:hover {
-    font-size: 2.5rem !important;
+    font-size: 2.35065rem !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:font-alt-2xl {
-    font-size: 2.5rem !important;
+    font-size: 2.35065rem !important;
   }
   .tablet-lg\:font-alt-2xl .tablet-lg\:hover\:font-alt-2xl:hover {
-    font-size: 2.5rem !important;
+    font-size: 2.35065rem !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:font-alt-2xl {
-    font-size: 2.5rem !important;
+    font-size: 2.35065rem !important;
   }
   .desktop\:font-alt-2xl .desktop\:hover\:font-alt-2xl:hover {
-    font-size: 2.5rem !important;
+    font-size: 2.35065rem !important;
   }
 }
 
 .font-alt-3xl {
-  font-size: 3rem !important;
+  font-size: 2.82078rem !important;
 }
 
 .hover\:font-alt-3xl:hover {
-  font-size: 3rem !important;
+  font-size: 2.82078rem !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:font-alt-3xl {
-    font-size: 3rem !important;
+    font-size: 2.82078rem !important;
   }
   .mobile\:font-alt-3xl .mobile\:hover\:font-alt-3xl:hover {
-    font-size: 3rem !important;
+    font-size: 2.82078rem !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:font-alt-3xl {
-    font-size: 3rem !important;
+    font-size: 2.82078rem !important;
   }
   .mobile-lg\:font-alt-3xl .mobile-lg\:hover\:font-alt-3xl:hover {
-    font-size: 3rem !important;
+    font-size: 2.82078rem !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:font-alt-3xl {
-    font-size: 3rem !important;
+    font-size: 2.82078rem !important;
   }
   .tablet\:font-alt-3xl .tablet\:hover\:font-alt-3xl:hover {
-    font-size: 3rem !important;
+    font-size: 2.82078rem !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:font-alt-3xl {
-    font-size: 3rem !important;
+    font-size: 2.82078rem !important;
   }
   .tablet-lg\:font-alt-3xl .tablet-lg\:hover\:font-alt-3xl:hover {
-    font-size: 3rem !important;
+    font-size: 2.82078rem !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:font-alt-3xl {
-    font-size: 3rem !important;
+    font-size: 2.82078rem !important;
   }
   .desktop\:font-alt-3xl .desktop\:hover\:font-alt-3xl:hover {
-    font-size: 3rem !important;
+    font-size: 2.82078rem !important;
   }
 }
 
@@ -51591,11 +51619,11 @@ example:
 }
 
 .font-family-serif {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  font-family: "Merriweather Web", "Georgia", "Cambria", "Times New Roman", "Times", serif !important;
 }
 
 .hover\:font-family-serif:hover {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  font-family: "Merriweather Web", "Georgia", "Cambria", "Times New Roman", "Times", serif !important;
 }
 
 .font-family-ui {
@@ -51631,11 +51659,11 @@ example:
 }
 
 .font-family-alt {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  font-family: "Merriweather Web", "Georgia", "Cambria", "Times New Roman", "Times", serif !important;
 }
 
 .hover\:font-family-alt:hover {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  font-family: "Merriweather Web", "Georgia", "Cambria", "Times New Roman", "Times", serif !important;
 }
 
 .text-tabular {
@@ -51801,36 +51829,36 @@ example:
 }
 
 .text-semibold {
-  font-weight: f600 !important;
+  font-weight: 600 !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:text-semibold {
-    font-weight: f600 !important;
+    font-weight: 600 !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:text-semibold {
-    font-weight: f600 !important;
+    font-weight: 600 !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:text-semibold {
-    font-weight: f600 !important;
+    font-weight: 600 !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:text-semibold {
-    font-weight: f600 !important;
+    font-weight: 600 !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:text-semibold {
-    font-weight: f600 !important;
+    font-weight: 600 !important;
   }
 }
 
@@ -52483,206 +52511,206 @@ example:
 }
 
 .line-height-serif-1 {
-  line-height: 1 !important;
+  line-height: 1.06354 !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:line-height-serif-1 {
-    line-height: 1 !important;
+    line-height: 1.06354 !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:line-height-serif-1 {
-    line-height: 1 !important;
+    line-height: 1.06354 !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:line-height-serif-1 {
-    line-height: 1 !important;
+    line-height: 1.06354 !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:line-height-serif-1 {
-    line-height: 1 !important;
+    line-height: 1.06354 !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:line-height-serif-1 {
-    line-height: 1 !important;
+    line-height: 1.06354 !important;
   }
 }
 
 .line-height-serif-2 {
-  line-height: 1.2 !important;
+  line-height: 1.27624 !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:line-height-serif-2 {
-    line-height: 1.2 !important;
+    line-height: 1.27624 !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:line-height-serif-2 {
-    line-height: 1.2 !important;
+    line-height: 1.27624 !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:line-height-serif-2 {
-    line-height: 1.2 !important;
+    line-height: 1.27624 !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:line-height-serif-2 {
-    line-height: 1.2 !important;
+    line-height: 1.27624 !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:line-height-serif-2 {
-    line-height: 1.2 !important;
+    line-height: 1.27624 !important;
   }
 }
 
 .line-height-serif-3 {
-  line-height: 1.35 !important;
+  line-height: 1.43577 !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:line-height-serif-3 {
-    line-height: 1.35 !important;
+    line-height: 1.43577 !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:line-height-serif-3 {
-    line-height: 1.35 !important;
+    line-height: 1.43577 !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:line-height-serif-3 {
-    line-height: 1.35 !important;
+    line-height: 1.43577 !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:line-height-serif-3 {
-    line-height: 1.35 !important;
+    line-height: 1.43577 !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:line-height-serif-3 {
-    line-height: 1.35 !important;
+    line-height: 1.43577 !important;
   }
 }
 
 .line-height-serif-4 {
-  line-height: 1.5 !important;
+  line-height: 1.5953 !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:line-height-serif-4 {
-    line-height: 1.5 !important;
+    line-height: 1.5953 !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:line-height-serif-4 {
-    line-height: 1.5 !important;
+    line-height: 1.5953 !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:line-height-serif-4 {
-    line-height: 1.5 !important;
+    line-height: 1.5953 !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:line-height-serif-4 {
-    line-height: 1.5 !important;
+    line-height: 1.5953 !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:line-height-serif-4 {
-    line-height: 1.5 !important;
+    line-height: 1.5953 !important;
   }
 }
 
 .line-height-serif-5 {
-  line-height: 1.62 !important;
+  line-height: 1.72293 !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:line-height-serif-5 {
-    line-height: 1.62 !important;
+    line-height: 1.72293 !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:line-height-serif-5 {
-    line-height: 1.62 !important;
+    line-height: 1.72293 !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:line-height-serif-5 {
-    line-height: 1.62 !important;
+    line-height: 1.72293 !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:line-height-serif-5 {
-    line-height: 1.62 !important;
+    line-height: 1.72293 !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:line-height-serif-5 {
-    line-height: 1.62 !important;
+    line-height: 1.72293 !important;
   }
 }
 
 .line-height-serif-6 {
-  line-height: 1.75 !important;
+  line-height: 1.86119 !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:line-height-serif-6 {
-    line-height: 1.75 !important;
+    line-height: 1.86119 !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:line-height-serif-6 {
-    line-height: 1.75 !important;
+    line-height: 1.86119 !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:line-height-serif-6 {
-    line-height: 1.75 !important;
+    line-height: 1.86119 !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:line-height-serif-6 {
-    line-height: 1.75 !important;
+    line-height: 1.86119 !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:line-height-serif-6 {
-    line-height: 1.75 !important;
+    line-height: 1.86119 !important;
   }
 }
 
@@ -53707,206 +53735,206 @@ example:
 }
 
 .line-height-alt-1 {
-  line-height: 1 !important;
+  line-height: 1.06354 !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:line-height-alt-1 {
-    line-height: 1 !important;
+    line-height: 1.06354 !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:line-height-alt-1 {
-    line-height: 1 !important;
+    line-height: 1.06354 !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:line-height-alt-1 {
-    line-height: 1 !important;
+    line-height: 1.06354 !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:line-height-alt-1 {
-    line-height: 1 !important;
+    line-height: 1.06354 !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:line-height-alt-1 {
-    line-height: 1 !important;
+    line-height: 1.06354 !important;
   }
 }
 
 .line-height-alt-2 {
-  line-height: 1.2 !important;
+  line-height: 1.27624 !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:line-height-alt-2 {
-    line-height: 1.2 !important;
+    line-height: 1.27624 !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:line-height-alt-2 {
-    line-height: 1.2 !important;
+    line-height: 1.27624 !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:line-height-alt-2 {
-    line-height: 1.2 !important;
+    line-height: 1.27624 !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:line-height-alt-2 {
-    line-height: 1.2 !important;
+    line-height: 1.27624 !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:line-height-alt-2 {
-    line-height: 1.2 !important;
+    line-height: 1.27624 !important;
   }
 }
 
 .line-height-alt-3 {
-  line-height: 1.35 !important;
+  line-height: 1.43577 !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:line-height-alt-3 {
-    line-height: 1.35 !important;
+    line-height: 1.43577 !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:line-height-alt-3 {
-    line-height: 1.35 !important;
+    line-height: 1.43577 !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:line-height-alt-3 {
-    line-height: 1.35 !important;
+    line-height: 1.43577 !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:line-height-alt-3 {
-    line-height: 1.35 !important;
+    line-height: 1.43577 !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:line-height-alt-3 {
-    line-height: 1.35 !important;
+    line-height: 1.43577 !important;
   }
 }
 
 .line-height-alt-4 {
-  line-height: 1.5 !important;
+  line-height: 1.5953 !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:line-height-alt-4 {
-    line-height: 1.5 !important;
+    line-height: 1.5953 !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:line-height-alt-4 {
-    line-height: 1.5 !important;
+    line-height: 1.5953 !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:line-height-alt-4 {
-    line-height: 1.5 !important;
+    line-height: 1.5953 !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:line-height-alt-4 {
-    line-height: 1.5 !important;
+    line-height: 1.5953 !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:line-height-alt-4 {
-    line-height: 1.5 !important;
+    line-height: 1.5953 !important;
   }
 }
 
 .line-height-alt-5 {
-  line-height: 1.62 !important;
+  line-height: 1.72293 !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:line-height-alt-5 {
-    line-height: 1.62 !important;
+    line-height: 1.72293 !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:line-height-alt-5 {
-    line-height: 1.62 !important;
+    line-height: 1.72293 !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:line-height-alt-5 {
-    line-height: 1.62 !important;
+    line-height: 1.72293 !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:line-height-alt-5 {
-    line-height: 1.62 !important;
+    line-height: 1.72293 !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:line-height-alt-5 {
-    line-height: 1.62 !important;
+    line-height: 1.72293 !important;
   }
 }
 
 .line-height-alt-6 {
-  line-height: 1.75 !important;
+  line-height: 1.86119 !important;
 }
 
 @media all and (min-width: 20em) {
   .mobile\:line-height-alt-6 {
-    line-height: 1.75 !important;
+    line-height: 1.86119 !important;
   }
 }
 
 @media all and (min-width: 30em) {
   .mobile-lg\:line-height-alt-6 {
-    line-height: 1.75 !important;
+    line-height: 1.86119 !important;
   }
 }
 
 @media all and (min-width: 40em) {
   .tablet\:line-height-alt-6 {
-    line-height: 1.75 !important;
+    line-height: 1.86119 !important;
   }
 }
 
 @media all and (min-width: 55em) {
   .tablet-lg\:line-height-alt-6 {
-    line-height: 1.75 !important;
+    line-height: 1.86119 !important;
   }
 }
 
 @media all and (min-width: 64em) {
   .desktop\:line-height-alt-6 {
-    line-height: 1.75 !important;
+    line-height: 1.86119 !important;
   }
 }
 
@@ -75471,11 +75499,10 @@ ul.usa-unstyled-list.button-card-grid-wide {
 }
 
 .cards {
-  display: -ms-grid;
+ 
   display: grid;
   padding: 1rem;
-  -ms-grid-columns: (minmax(240px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-gap: 1rem;
 }
 
