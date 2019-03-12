@@ -41,11 +41,11 @@
 
 	}
 
-	.usa-banner-inner {
+	.usa-banner__inner {
 		padding-left: 0;
 	}
 
-	.usa-banner-header {
+	.usa-banner__header {
 		padding-bottom: 0;
 	}
 
@@ -59,11 +59,11 @@
 
 	}
 
-	.usa-banner-inner {
+	.usa-banner__inner {
 		padding-left: 0;
 	}
 
-	.usa-banner-header {
+	.usa-banner__header {
 		padding-bottom: 0;
 	}
 
@@ -72,8 +72,8 @@
 
 @include at-media(spacing-multiple(128)-.01) {
 
-	.usa-nav-secondary-links a,
-	.usa-nav-primary>.usa-nav-primary-item>a {
+	.usa-nav__secondary-links a,
+	.usa-nav__primary>.usa-nav__primary-item>a {
 		color: color('white');
 		
 		&:not(.usa-button):hover {
@@ -95,8 +95,8 @@
 	}
 
 
-	.usa-nav-primary button:hover,
-	.usa-nav-primary>.usa-nav-primary-item>a:hover {
+	.usa-nav__primary button:hover,
+	.usa-nav__primary>.usa-nav__primary-item>a:hover {
 		color: color('warning-lighter');
 		background-color: color('primary');
 	}
@@ -111,21 +111,21 @@
 		border-top: none;
 	}
 
-	.usa-nav-submenu {
+	.usa-nav__submenu {
 		background-color: $body-background-color;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
 		border-radius: 0 0px 4px 4px;
 		}
 	
 
-	.usa-nav-submenu-item {
+	.usa-nav__submenu-item {
 		transition: background-color 0.3s ease;
 		&:hover {
 			background-color: color('base-lightest');
 		}
 	}
 
-	.usa-nav-primary .usa-nav-submenu .usa-nav-submenu-item a {
+	.usa-nav__primary .usa-nav__submenu .usa-nav__submenu-item a {
 		color: color('primary-darker');
 		border: none;
 		display: block;
@@ -140,13 +140,13 @@
 		}
 	}
 
-	.usa-nav-secondary__no-links {
+	.usa-nav__secondary__no-links {
 		bottom: 4.8rem;
 		min-width: calc(30ch + 2rem);
 	}
 
-	.usa-nav-primary button[aria-expanded=false],
-	.usa-nav-primary:hover button[aria-expanded=false] {
+	.usa-nav__primary button[aria-expanded=false],
+	.usa-nav__primary:hover button[aria-expanded=false] {
 		color:color('white');
 		background-image: url(../img/uswds/angle-arrow-down-hover.png);
 		background-image: url(../img/uswds/angle-arrow-down-hover.svg), -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
@@ -154,8 +154,8 @@
 
 	}
 
-	.usa-nav-primary button[aria-expanded="true"],
-	.usa-nav-primary:hover button[aria-expanded="true"] {
+	.usa-nav__primary button[aria-expanded="true"],
+	.usa-nav__primary:hover button[aria-expanded="true"] {
 		color:color('ink');
 		background-color: $body-background-color;
 		background-image: url(../img/uswds/angle-arrow-up.png);

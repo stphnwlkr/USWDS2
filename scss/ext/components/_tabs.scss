@@ -60,6 +60,7 @@
          width: auto;
          margin-top: .5rem;
          margin-right: 0.2rem;
+         margin-bottom: 0;
          & :hover {
              background: color('base-lightest');
              color: color('ink');
@@ -76,7 +77,7 @@
         padding: .6rem 1rem;
 
     }
-     .tabs .tabs__toggle-active-last {
+     .tabs .tabs__toggle-active--last {
            border-color: color('accent-warm-dark');
            background: color('base-lightest');
            color: color('ink');
@@ -87,7 +88,7 @@
          display: none;
      }
 
-     .tabs .tabs__content-active-last {
+     .tabs .tabs__content-active--last {
          display: block;
          background: color('base-lightest');
          color: color('ink');

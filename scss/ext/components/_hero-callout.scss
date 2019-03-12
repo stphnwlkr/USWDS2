@@ -1,76 +1,76 @@
 /*Callout boxes*/
 
-.usa-hero-callout {
+.usa-hero__callout {
 	max-width: 30rem;
 	padding: 2rem;
 	color: color('white');
 }
 
-.usa-hero-callout__right {
+.usa-hero__callout--right {
 	float: right;
 }
 
-.usa-hero-callout__base {
+.usa-hero__callout--base {
 	background-color: color('ink');
 	color: color('white');
 	box-shadow:  0 3px 6px rgba(color('ink'), 0.16), 0 3px 6px rgba(color('ink'), 0.23);
 }
 
-.usa-hero-callout__primary {
+.usa-hero__callout--primary {
 	background-color: color('primary');
 	color: color('white');
 	box-shadow:  0 3px 6px rgba(color('ink'), 0.16), 0 3px 6px rgba(color('ink'), 0.23);
 }
 
-.usa-hero-callout__primary-darker {
+.usa-hero__callout--primary-darker {
 	background-color: color('primary-darker');
 	color: color('white');
 	box-shadow:  0 3px 6px rgba(color('ink'), 0.16), 0 3px 6px rgba(color('ink'), 0.23);
 }
 
 
-.usa-hero-callout__primary-midnight {
+.usa-hero__callout--primary-midnight {
 	background-color: $color-blue-midnight;
 	color: color('white');
 	box-shadow:  0 3px 6px rgba(color('ink'), 0.16), 0 3px 6px rgba(color('ink'), 0.23);
 }
 
-.usa-hero-callout__secondary {
+.usa-hero__callout--secondary {
 	background-color: color('secondary');
 	box-shadow:  0 3px 6px rgba(color('ink'), 0.16), 0 3px 6px rgba(color('ink'), 0.23);
 }
 
-.usa-hero-callout__secondary-dark {
+.usa-hero__callout--secondary-dark {
 	background-color: color('secondary-dark');
 	box-shadow:  0 3px 6px rgba(color('ink'), 0.16), 0 3px 6px rgba(color('ink'), 0.23);
 }
 
-.usa-hero-callout__secondary-darker {
+.usa-hero__callout--secondary-darker {
 	background-color: color('secondary-darker');
 	box-shadow:  0 3px 6px rgba(color('ink'), 0.16), 0 3px 6px rgba(color('ink'), 0.23);
 }
 
-.usa-hero-callout__base-dark {
+.usa-hero__callout--base-dark {
 	background-color: color('base-dark');
 	box-shadow:  0 3px 6px rgba(color('ink'), 0.16), 0 3px 6px rgba(color('ink'), 0.23);
 }
 
-.usa-hero-callout__accent-cool-dark {
+.usa-hero__callout--accent-cool-dark {
 	background-color: color('accent-cool-dark');
 	color: color('ink');
 }
 
-.usa-hero-callout__accent-cool-darker {
+.usa-hero__callout--accent-cool-darker {
 	background-color: color('accent-cool-darker');
 	box-shadow:  0 3px 6px rgba(color('ink'), 0.16), 0 3px 6px rgba(color('ink'), 0.23);
 }
 
-.usa-hero-callout__green {
+.usa-hero__callout--green {
 	background-color: color('success-dark');
 	box-shadow:  0 3px 6px rgba(color('ink'), 0.16), 0 3px 6px rgba(color('ink'), 0.23);
 }
 
-.usa-hero-callout__primary-lighter {
+.usa-hero__callout--primary-lighter {
 	background-color: color('primary-lighter');
 	color: color('ink');
 	box-shadow:  0 3px 6px rgba(color('ink'), 0.16), 0 3px 6px rgba(color('ink'), 0.23);

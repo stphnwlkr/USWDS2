@@ -14,7 +14,6 @@ Output all USWDS
 
 // Settings
 // -------------------------------------
-
 @import 'settings/settings-general';
 @import 'settings/settings-typography';
 @import 'settings/settings-color';
@@ -24,7 +23,6 @@ Output all USWDS
 
 // Tools
 // -------------------------------------
-@import 'core/font-definitions';
 @import 'core/functions';
 @import 'core/system-tokens';
 @import 'core/variables';
@@ -105,4 +103,4 @@ Output all USWDS
 @import '../ext/components/hero-callout';
 @import '../ext/components/sharing';
 @import '../ext/components/progress';
-@import '../ext/components/sections';
+@import '../ext/components/sections'; 

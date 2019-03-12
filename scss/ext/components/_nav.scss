@@ -1,11 +1,11 @@
-.usa-sidenav-item a.usa-current {
+.usa-sidenav__item a.usa-current {
         background-color: advanced-color('gray-warm', 10);
     }
     .usa-sidenav .usa-current::after {
          margin-left: 4px;
     }
 
-   .usa-sidenav-item a.usa-current::after {
+   .usa-sidenav__item a.usa-current::after {
         background-color: #005ea2;
         border-radius: 99rem;
         content: '';

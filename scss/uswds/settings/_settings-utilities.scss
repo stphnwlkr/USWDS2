@@ -7,19 +7,19 @@
 ========================================
 ========================================
 ----------------------------------------
-USWDS UTILITIES SETTINGS
+USWDS 2.0.0 Beta 6
 ----------------------------------------
--
+UTILITIES SETTINGS
+----------------------------------------
 Read more about settings and
 USWDS utilities in the documentation:
 https://v2.designsystem.digital.gov/utilities
--
 ----------------------------------------
 */
 
 $utilities-use-important:     true !default;
 $output-all-utilities:        true !default;
- 
+
 /*
 ----------------------------------------
 Utility breakpoints
@@ -55,8 +55,8 @@ The following palettes will be added to
 */
 
 $global-color-palettes: (
-  'palette-color',
-  'palette-color-system'
+  'palette-color-default',
+  'palette-color-system',
 ) !default;
 
 /*
@@ -250,7 +250,7 @@ $font-settings: (
   responsive:   true,
   active:       false,
   focus:        false,
-  hover:        true,
+  hover:        false,
   visited:      false
 ) !default;
 
@@ -259,7 +259,7 @@ $font-family-settings: (
   responsive:   false,
   active:       false,
   focus:        false,
-  hover:        true,
+  hover:        false,
   visited:      false
 ) !default;
 
@@ -277,7 +277,7 @@ $font-style-settings: (
   responsive:   false,
   active:       false,
   focus:        false,
-  hover:        true,
+  hover:        false,
   visited:      false
 ) !default;
 
