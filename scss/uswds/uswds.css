@@ -1123,7 +1123,7 @@ utilities to reference.
 }
 
 [class*='font-sans-'] {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
 }
 
 [class*='font-serif-'] {
@@ -1131,15 +1131,15 @@ utilities to reference.
 }
 
 [class*='font-ui-'] {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
 }
 
 [class*='font-heading-'] {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
 }
 
 [class*='font-body-'] {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
 }
 
 [class*='font-code-'] {
@@ -1350,150 +1350,6 @@ through all possible variants
   font-weight: 700;
   font-display: fallback;
   src: url(../fonts/roboto-mono/roboto-mono-v5-latin-700italic.eot?#iefix) format("embedded-opentype"), url(../fonts/roboto-mono/roboto-mono-v5-latin-700italic.woff2) format("woff2"), url(../fonts/roboto-mono/roboto-mono-v5-latin-700italic.woff) format("woff"), url(../fonts/roboto-mono/roboto-mono-v5-latin-700italic.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: normal;
-  font-weight: 100;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-Thin.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-Thin.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-Thin.woff) format("woff"), url(../fonts/public-sans/PublicSans-Thin.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: normal;
-  font-weight: 200;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-ExtraLight.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-ExtraLight.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-ExtraLight.woff) format("woff"), url(../fonts/public-sans/PublicSans-ExtraLight.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: normal;
-  font-weight: 300;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-Light.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-Light.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-Light.woff) format("woff"), url(../fonts/public-sans/PublicSans-Light.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: normal;
-  font-weight: 400;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-Regular.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-Regular.woff) format("woff"), url(../fonts/public-sans/PublicSans-Regular.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: normal;
-  font-weight: 500;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-Medium.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-Medium.woff) format("woff"), url(../fonts/public-sans/PublicSans-Medium.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: normal;
-  font-weight: 600;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-SemiBold.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-SemiBold.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-SemiBold.woff) format("woff"), url(../fonts/public-sans/PublicSans-SemiBold.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: normal;
-  font-weight: 700;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-Bold.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-Bold.woff) format("woff"), url(../fonts/public-sans/PublicSans-Bold.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: normal;
-  font-weight: 800;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-ExtraBold.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-ExtraBold.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-ExtraBold.woff) format("woff"), url(../fonts/public-sans/PublicSans-ExtraBold.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: normal;
-  font-weight: 900;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-Black.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-Black.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-Black.woff) format("woff"), url(../fonts/public-sans/PublicSans-Black.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: italic;
-  font-weight: 100;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-ThinItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-ThinItalic.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-ThinItalic.woff) format("woff"), url(../fonts/public-sans/PublicSans-ThinItalic.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: italic;
-  font-weight: 200;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-ExtraLightItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-ExtraLightItalic.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-ExtraLightItalic.woff) format("woff"), url(../fonts/public-sans/PublicSans-ExtraLightItalic.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: italic;
-  font-weight: 300;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-LightItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-LightItalic.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-LightItalic.woff) format("woff"), url(../fonts/public-sans/PublicSans-LightItalic.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: italic;
-  font-weight: 400;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-Italic.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-Italic.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-Italic.woff) format("woff"), url(../fonts/public-sans/PublicSans-Italic.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: italic;
-  font-weight: 500;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-MediumItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-MediumItalic.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-MediumItalic.woff) format("woff"), url(../fonts/public-sans/PublicSans-MediumItalic.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: italic;
-  font-weight: 600;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-SemiBoldItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-SemiBoldItalic.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-SemiBoldItalic.woff) format("woff"), url(../fonts/public-sans/PublicSans-SemiBoldItalic.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: italic;
-  font-weight: 700;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-BoldItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-BoldItalic.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-BoldItalic.woff) format("woff"), url(../fonts/public-sans/PublicSans-BoldItalic.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: italic;
-  font-weight: 800;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-ExtraBoldItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-ExtraBoldItalic.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-ExtraBoldItalic.woff) format("woff"), url(../fonts/public-sans/PublicSans-ExtraBoldItalic.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: italic;
-  font-weight: 900;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-BlackItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-BlackItalic.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-BlackItalic.woff) format("woff"), url(../fonts/public-sans/PublicSans-BlackItalic.ttf) format("truetype");
 }
 
 @font-face {
@@ -1963,7 +1819,7 @@ body {
 }
 
 .usa-button {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1 ;
   -moz-osx-font-smoothing: grayscale;
@@ -2268,7 +2124,7 @@ img {
 .usa-select,
 .usa-range,
 .usa-form-hint {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1.35 ;
 }
@@ -2727,7 +2583,7 @@ img {
 }
 
 .usa-table, .usa-prose > table {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1.62 ;
   border-spacing: 0;
@@ -2784,7 +2640,7 @@ img {
 }
 
 .usa-tag {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 0.875rem;
   color: white ;
   text-transform: uppercase ;
@@ -2801,7 +2657,7 @@ img {
 .usa-tag--big {
   padding-left: 0.5rem ;
   padding-right: 0.5rem ;
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
 }
 
@@ -2810,12 +2666,12 @@ html {
           font-feature-settings: 'kern' 1;
   -webkit-font-kerning: normal;
           font-kerning: normal;
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 100%;
 }
 
 .usa-prose {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1.62 ;
 }
@@ -2843,42 +2699,42 @@ html {
 }
 
 .usa-prose > h1 {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 2.5rem;
   line-height: 1.2 ;
   font-weight: bold;
 }
 
 .usa-prose > h2 {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 2rem;
   line-height: 1.2 ;
   font-weight: bold;
 }
 
 .usa-prose > h3 {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1.375rem;
   line-height: 1.2 ;
   font-weight: bold;
 }
 
 .usa-prose > h4 {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1.2 ;
   font-weight: bold;
 }
 
 .usa-prose > h5 {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 0.9375rem;
   line-height: 1.2 ;
   font-weight: bold;
 }
 
 .usa-prose > h6 {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 0.8125rem;
   line-height: 1.2 ;
   font-weight: normal;
@@ -2982,7 +2838,7 @@ dfn {
   margin-bottom: 0 ;
   margin-top: 0 ;
   clear: both;
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1.375rem;
   line-height: 1.2 ;
   font-weight: bold;
@@ -3002,7 +2858,7 @@ dfn {
     margin-bottom: 0 ;
     margin-top: 0 ;
     clear: both;
-    font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     font-size: 2.5rem;
     line-height: 1.2 ;
     font-weight: bold;
@@ -3020,7 +2876,7 @@ dfn {
     margin-bottom: 0 ;
     margin-top: 0 ;
     clear: both;
-    font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     font-size: 3rem;
     line-height: 1.2 ;
     font-weight: bold;
@@ -3034,7 +2890,7 @@ dfn {
 }
 
 .usa-font-lead {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1.375rem;
   line-height: 1.75 ;
   font-weight: 400;
@@ -3108,7 +2964,7 @@ dfn {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1.62 ;
 }
@@ -3148,7 +3004,7 @@ dfn {
 
 .usa-accordion__heading,
 .usa-prose .usa-accordion__heading {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1 ;
   margin: 0;
@@ -3240,7 +3096,7 @@ dfn {
 }
 
 .usa-alert {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1.62 ;
   background-color: #f0f0f0;
@@ -3300,7 +3156,7 @@ dfn {
 }
 
 .usa-alert__heading {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1.375rem;
   line-height: 1.2 ;
   margin-top: 0;
@@ -3412,7 +3268,7 @@ dfn {
 }
 
 .usa-banner {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1.62 ;
   background-color: #f0f0f0;
@@ -3842,7 +3698,7 @@ dfn {
   margin-top: 0;
   list-style-type: none;
   padding-left: 0;
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1.62 ;
   margin: 0;
@@ -3874,7 +3730,7 @@ dfn {
 }
 
 .usa-footer {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1.62 ;
   overflow: hidden;
@@ -4055,7 +3911,7 @@ dfn {
 }
 
 .usa-sign-up__heading {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1.375rem;
   line-height: 1.2 ;
   font-weight: bold;
@@ -4092,7 +3948,7 @@ dfn {
 }
 
 .usa-footer__logo-heading {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1.375rem;
   line-height: 1.2 ;
   font-weight: bold;
@@ -4113,7 +3969,7 @@ dfn {
 }
 
 .usa-footer__contact-heading {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1.375rem;
   line-height: 1.2 ;
   font-weight: bold;
@@ -4255,7 +4111,7 @@ dfn {
 }
 
 .usa-footer--big .usa-footer__primary-link {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1.2 ;
   font-weight: bold;
@@ -4320,7 +4176,7 @@ dfn {
 }
 
 .usa-form {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1.35 ;
 }
@@ -4385,7 +4241,7 @@ dfn {
 }
 
 .usa-form__note {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 0.875rem;
   line-height: 1.35 ;
   float: right;
@@ -4393,7 +4249,7 @@ dfn {
 }
 
 .usa-graphic-list {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1.62 ;
 }
@@ -4430,7 +4286,7 @@ dfn {
   margin-bottom: 0 ;
   margin-top: 0 ;
   clear: both;
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1.375rem;
   line-height: 1.2 ;
   font-weight: bold;
@@ -4445,7 +4301,7 @@ dfn {
 }
 
 .usa-header {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1.62 ;
   z-index: 300;
@@ -4795,7 +4651,7 @@ dfn {
 }
 
 .usa-hero {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1.62 ;
   padding-bottom: 2rem ;
@@ -4821,7 +4677,7 @@ dfn {
   margin-bottom: 0 ;
   margin-top: 0 ;
   clear: both;
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 2rem;
   line-height: 1.2 ;
   font-weight: bold;
@@ -4943,7 +4799,7 @@ dfn {
 }
 
 .usa-nav {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1 ;
 }
@@ -5499,7 +5355,7 @@ dfn {
 }
 
 .usa-search {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1.62 ;
   position: relative;
@@ -5655,7 +5511,7 @@ input[type="search"] {
   margin-top: 0 ;
   list-style-type: none;
   padding-left: 0;
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1.35 ;
   border-bottom: 1px solid #dcdee0;
@@ -5777,7 +5633,7 @@ input[type="search"] {
 }
 
 .usa-skipnav {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1.62 ;
   background: transparent;
@@ -49208,7 +49064,7 @@ example:
 }
 
 .font-family-sans {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
 }
 
 .font-family-serif {
@@ -49216,15 +49072,15 @@ example:
 }
 
 .font-family-ui {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
 }
 
 .font-family-heading {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
 }
 
 .font-family-body {
-  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
 }
 
 .font-family-code {
