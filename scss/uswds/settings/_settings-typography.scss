@@ -67,7 +67,7 @@ unclassed elements:
 
 $theme-global-paragraph-styles: false !default;
 $theme-global-link-styles:      false !default;
-$theme-global-content-styles:   false !default;
+$theme-global-content-styles:   true !default;
 
 /*
 ----------------------------------------
@@ -332,7 +332,7 @@ $theme-font-weight-heavy:         900 !default;
 // should we generate all available weights
 // regardless of the assignments above?
 
-$theme-generate-all-weights:        true !default;
+$theme-generate-all-weights:        false !default;
 
 /*
 ----------------------------------------

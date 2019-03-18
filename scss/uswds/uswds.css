@@ -1363,14 +1363,6 @@ through all possible variants
 @font-face {
   font-family: Public Sans Web;
   font-style: normal;
-  font-weight: 200;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-ExtraLight.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-ExtraLight.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-ExtraLight.woff) format("woff"), url(../fonts/public-sans/PublicSans-ExtraLight.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: normal;
   font-weight: 300;
   font-display: fallback;
   src: url(../fonts/public-sans/PublicSans-Light.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-Light.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-Light.woff) format("woff"), url(../fonts/public-sans/PublicSans-Light.ttf) format("truetype");
@@ -1411,14 +1403,6 @@ through all possible variants
 @font-face {
   font-family: Public Sans Web;
   font-style: normal;
-  font-weight: 800;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-ExtraBold.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-ExtraBold.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-ExtraBold.woff) format("woff"), url(../fonts/public-sans/PublicSans-ExtraBold.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: normal;
   font-weight: 900;
   font-display: fallback;
   src: url(../fonts/public-sans/PublicSans-Black.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-Black.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-Black.woff) format("woff"), url(../fonts/public-sans/PublicSans-Black.ttf) format("truetype");
@@ -1430,14 +1414,6 @@ through all possible variants
   font-weight: 100;
   font-display: fallback;
   src: url(../fonts/public-sans/PublicSans-ThinItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-ThinItalic.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-ThinItalic.woff) format("woff"), url(../fonts/public-sans/PublicSans-ThinItalic.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: italic;
-  font-weight: 200;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-ExtraLightItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-ExtraLightItalic.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-ExtraLightItalic.woff) format("woff"), url(../fonts/public-sans/PublicSans-ExtraLightItalic.ttf) format("truetype");
 }
 
 @font-face {
@@ -1478,14 +1454,6 @@ through all possible variants
   font-weight: 700;
   font-display: fallback;
   src: url(../fonts/public-sans/PublicSans-BoldItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-BoldItalic.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-BoldItalic.woff) format("woff"), url(../fonts/public-sans/PublicSans-BoldItalic.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: Public Sans Web;
-  font-style: italic;
-  font-weight: 800;
-  font-display: fallback;
-  src: url(../fonts/public-sans/PublicSans-ExtraBoldItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/public-sans/PublicSans-ExtraBoldItalic.woff2) format("woff2"), url(../fonts/public-sans/PublicSans-ExtraBoldItalic.woff) format("woff"), url(../fonts/public-sans/PublicSans-ExtraBoldItalic.ttf) format("truetype");
 }
 
 @font-face {
@@ -2679,26 +2647,28 @@ img {
 }
 
 .usa-list, .usa-prose > ul,
-.usa-prose > ol {
+.usa-prose > ol, ul,
+ol {
   margin-bottom: 1em ;
   margin-top: 1em ;
   padding-left: 3ch;
 }
 
-.usa-list:last-child, .usa-prose > ul:last-child,
-.usa-prose > ol:last-child {
+.usa-list:last-child, ul:last-child,
+ol:last-child {
   margin-bottom: 0;
 }
 
 .usa-list li, .usa-prose > ul li,
-.usa-prose > ol li {
+.usa-prose > ol li, ul li,
+ol li {
   line-height: 1.62;
   margin-bottom: 0.25em;
   max-width: none;
 }
 
-.usa-list li:last-child, .usa-prose > ul li:last-child,
-.usa-prose > ol li:last-child {
+.usa-list li:last-child, ul li:last-child,
+ol li:last-child {
   margin-bottom: 0;
 }
 
@@ -2726,7 +2696,7 @@ img {
   max-width: unset;
 }
 
-.usa-table, .usa-prose > table {
+.usa-table, .usa-prose > table, table {
   font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1.62 ;
@@ -2734,23 +2704,25 @@ img {
   margin: 1.25rem 0;
 }
 
-.usa-table thead th, .usa-prose > table thead th {
+.usa-table thead th, .usa-prose > table thead th, table thead th {
   font-weight: 700;
 }
 
-.usa-table thead th, .usa-prose > table thead th,
+.usa-table thead th, .usa-prose > table thead th, table thead th,
 .usa-table thead td,
-.usa-prose > table thead td {
+.usa-prose > table thead td,
+table thead td {
   background-color: #f0f0f0;
 }
 
-.usa-table th, .usa-prose > table th {
+.usa-table th, .usa-prose > table th, table th {
   text-align: left;
 }
 
-.usa-table th, .usa-prose > table th,
+.usa-table th, .usa-prose > table th, table th,
 .usa-table td,
-.usa-prose > table td {
+.usa-prose > table td,
+table td {
   border-width: 1px;
   border-color: #565c65 ;
   border-style: solid;
@@ -2759,7 +2731,7 @@ img {
   padding: 0.5rem 1rem;
 }
 
-.usa-table caption, .usa-prose > table caption {
+.usa-table caption, .usa-prose > table caption, table caption {
   font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
   font-size: 0.88149rem;
   font-weight: 700;
@@ -2878,6 +2850,72 @@ html {
 }
 
 .usa-prose > h6 {
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.8125rem;
+  line-height: 1.2 ;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+a {
+  color: #005ea2;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #162e51;
+}
+
+a:active {
+  color: #162e51;
+}
+
+a:focus {
+  outline: 0.25rem solid #face00;
+  outline-offset: 0;
+}
+
+a:visited {
+  color: #562b97;
+}
+
+h1 {
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 2.5rem;
+  line-height: 1.2 ;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 2rem;
+  line-height: 1.2 ;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 1.375rem;
+  line-height: 1.2 ;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 1rem;
+  line-height: 1.2 ;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.9375rem;
+  line-height: 1.2 ;
+  font-weight: bold;
+}
+
+h6 {
   font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 0.8125rem;
   line-height: 1.2 ;
@@ -3060,18 +3098,18 @@ dfn {
   color: white;
 }
 
-.usa-prose > p {
+.usa-prose > p, p {
   line-height: 1.62;
   margin-bottom: 0;
   margin-top: 0;
   max-width: none;
 }
 
-.usa-prose > * + p {
+.usa-prose > * + p, * + p {
   margin-top: 1em;
 }
 
-.usa-prose > p + * {
+.usa-prose > p + *, p + * {
   margin-top: 1em;
 }
 
@@ -3080,7 +3118,12 @@ dfn {
 .usa-prose > h3,
 .usa-prose > h4,
 .usa-prose > h5,
-.usa-prose > h6 {
+.usa-prose > h6, h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 0 ;
   margin-top: 0 ;
   clear: both;
@@ -3091,11 +3134,16 @@ dfn {
 .usa-prose > * + h3,
 .usa-prose > * + h4,
 .usa-prose > * + h5,
-.usa-prose > * + h6 {
+.usa-prose > * + h6, * + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h5,
+* + h6 {
   margin-top: 1.5em;
 }
 
-.usa-prose > h1 + *, .usa-prose > h2 + *, .usa-prose > h3 + *, .usa-prose > h4 + *, .usa-prose > h5 + *, .usa-prose > h6 + * {
+.usa-prose > h1 + *, .usa-prose > h2 + *, .usa-prose > h3 + *, .usa-prose > h4 + *, .usa-prose > h5 + *, .usa-prose > h6 + *, h1 + *, h2 + *, h3 + *, h4 + *, h5 + *, h6 + * {
   margin-top: 1em;
 }
 
@@ -4001,7 +4049,7 @@ dfn {
   color: #562b97;
 }
 
-.usa-footer__secondary-link + .usa-footer__secondary-link {
+.usa-footer__secondary-link + .usa-footer-secondary-link {
   padding-top: 1rem;
 }
 
@@ -4325,9 +4373,9 @@ dfn {
   line-height: 1.35 ;
 }
 
-@media all and (min-width: 40em) {
+@media all and (min-width: 30em) {
   .usa-form {
-    max-width: 30rem;
+    max-width: 20rem;
   }
 }
 
