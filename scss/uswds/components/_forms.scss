@@ -8,8 +8,8 @@
 }
 
 .usa-form {
-  @include at-media('tablet') {
-    max-width: units('mobile-lg');
+  @include at-media('mobile-lg') {
+    max-width: units('mobile');
   }
 
   .usa-input,
